@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "format": {
+      "type": "json"
+    },
+    "url": "altair-data-d210ec62c873789370e198ba154fbb1b.json"
+  },
+  "encoding": {
+    "color": {
+      "field": "avg_price_range",
+      "scale": {
+        "scheme": "goldorange"
+      },
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {
+        "field": "avg_price_range",
+        "type": "quantitative"
+      },
+      {
+        "field": "count_reviews",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "avg_price_range",
+      "title": "Average Price Range",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "language",
+      "sort": "-x",
+      "title": "Language",
+      "type": "nominal"
+    }
+  },
+  "height": 800,
+  "mark": {
+    "type": "bar"
+  },
+  "title": "Average Price Range by Language",
+  "width": 600
+}
