@@ -57,9 +57,13 @@ In questo modo, il grafico verrà visualizzato in modo responsive, adattandosi a
 <br>
 ### Esempio di inserimento di un chart realizzato con Altair 
 <hr>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/PriceByLanguage.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/PriceByLanguage_data.json" style="width: 100%"></vegachart>
 
 <hr>
 - Il grafico è stato salvato come file `chart_responsive.json` e inserito nella cartella `assets/charts`.
 - Se provassimo a visualizzare il grafico in una pagina web senza specificare la proprietà `width='container'`, il grafico non sarebbe responsive e verrebbe visualizzato con una larghezza fissa.
 - Se porvassimo a visualizzare il grafico in un notebook Jupyter, il grafico non sarebbe visibile in quanto la proprietà `width='container'` non è supportata in questo ambiente. In tal caso, è possibile specificare una larghezza fissa in pixel e cambiare la proprietà width solo in fase di esportazione. 
+
+### Esempio di inserimento di un chart realizzato con Altair con un tema personalizzato (dark mode)
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/PriceByLanguage_dark.json" style="width: 100%"></vegachart>
