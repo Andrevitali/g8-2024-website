@@ -49,13 +49,13 @@ navbar:
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
-    - title: Storia
+    - title: Dati
       url: /bootstrap
     - title: Sito
       url: /jekyll-ssg
-    - title: Visualizzazioni Altair
+    - title: Visualizzazioni
       url: /charts
-    - title: Visualizzazioni Folium
+    - title: Visualizzazioni 
       url: /folium-map
     - title: Write first #Label
       child:

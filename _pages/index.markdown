@@ -7,7 +7,7 @@ title: "CravIt"
 subtitle: "Trova il Ristorante Perfetto per il Tuo Piatto Preferito"
 show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/stampo_biscotti.jpg
+header_img: assets/images/cibo.jpg
 header_title: "CravIt"
 ---
 
@@ -49,8 +49,8 @@ Il template proposto è basato su Bootstrap e Jekyll e include una serie di funz
         <div class="col-md-3 col-md-offset-3">
         </div>
         <div class="col-md-6">
-            <p>Prima di affrontare la realizzazione del sito è necessario installare Jekyll</p>
-            <a href="{{site.baseurl}}/installation" class="btn btn-info" role="button">Installazione di Jeykll</a>
+            <p>Vediamo la nostra app</p>
+            <a href="{{site.baseurl}}/installation" class="btn btn-info" role="button">La App</a>
         </div>
     </div>
 </div>

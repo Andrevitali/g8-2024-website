@@ -1,6 +1,6 @@
-- name: Bootstrap
-  url:  "assets/images/bootstrap_t.png"
-  description: "Una panoramica di Bootstrap"
+- name: Dati
+  url:  "assets/images/Roma.jpg"
+  description: "Una panoramica dei ristornati"
   path: "bootstrap"
 - name: Jekyll
   url:  "assets/images/jekyll_t.png"
