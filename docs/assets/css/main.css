@@ -105,7 +105,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Ibarra Real Nova", serif;
+  font-family: Open Sans;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -403,7 +403,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: chulapa, sans-serif;
+  font-family: Open Sans;
   font-weight: 500;
   line-height: 1.2;
   color: #000000;
@@ -5430,7 +5430,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Ibarra Real Nova", serif;
+  font-family: Open Sans;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5531,7 +5531,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Ibarra Real Nova", serif;
+  font-family: Open Sans;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9537,7 +9537,7 @@ a.chulapa-pill-bg-body:focus, a.chulapa-pill-bg-body.focus {
 }
 
 .chulapa-headingfont {
-  font-family: chulapa, sans-serif;
+  font-family: Open Sans;
   font-weight: 500;
 }
 
@@ -9620,7 +9620,7 @@ a.chulapa-pill-bg-body:focus, a.chulapa-pill-bg-body.focus {
 }
 
 .hero-chulapa, .splash-chulapa, .splash-chulapa-image, .hero-chulapa-image {
-  font-family: chulapa, sans-serif;
+  font-family: Open Sans;
   background-color: #7ac2ae;
   text-align: center;
   min-height: 40vh;
@@ -10520,14 +10520,14 @@ h6:hover .chulapa-header-link {
 }
 #ch-cusdis button.bg-gray-200 {
   font-weight: 500;
-  font-family: chulapa, sans-serif;
+  font-family: Open Sans;
 }
 #ch-cusdis .border-color-gray-200 {
   border-color: #0c0a09;
 }
 #ch-cusdis .font-medium {
   color: #283832;
-  font-family: chulapa, sans-serif;
+  font-family: Open Sans;
   font-weight: 700;
 }
 #ch-cusdis .text-gray-500 {
@@ -10538,7 +10538,7 @@ h6:hover .chulapa-header-link {
   font-weight: 400;
 }
 #ch-cusdis button.text-gray-500.text-sm {
-  font-family: "Ibarra Real Nova", serif;
+  font-family: Open Sans;
   font-weight: 400;
   color: #403d3e;
   background-color: #7ac2ae;
@@ -10582,13 +10582,13 @@ h6:hover .chulapa-header-link {
 
 #welcomments__container {
   text-align: left;
-  font-family: "Ibarra Real Nova", serif;
+  font-family: Open Sans;
   overflow-x: hidden;
 }
 #welcomments__container .welcomments__comments-title,
 #welcomments__container .welcomments__author-name {
   color: #283832;
-  font-family: chulapa, sans-serif;
+  font-family: Open Sans;
   font-weight: 700;
 }
 #welcomments__container .welcomments__comment-time time, #welcomments__container .welcomments__comment-time #ch-cusdis .text-gray-500.text-sm, #ch-cusdis #welcomments__container .welcomments__comment-time .text-gray-500.text-sm, #welcomments__container .welcomments__comment-time .welcomments__comment-time {
@@ -10639,7 +10639,7 @@ h6:hover .chulapa-header-link {
   border-color: #283832;
 }
 #welcomments__container .welcomments__comment-reply-link {
-  font-family: "Ibarra Real Nova", serif;
+  font-family: Open Sans;
   color: #403d3e;
   background-color: #7ac2ae;
   border-color: #283832;
@@ -10670,7 +10670,7 @@ h6:hover .chulapa-header-link {
 }
 #welcomments__container label {
   font-size: 0.875rem;
-  font-family: "Ibarra Real Nova", serif;
+  font-family: Open Sans;
   color: #283832;
 }
 #welcomments__container label .welcomments__optional-notice {
@@ -10679,7 +10679,7 @@ h6:hover .chulapa-header-link {
 }
 #welcomments__container .welcomments__submit-button {
   font-weight: 500;
-  font-family: chulapa, sans-serif;
+  font-family: Open Sans;
 }
 #disqus_recommendations {
   width: 100%;
