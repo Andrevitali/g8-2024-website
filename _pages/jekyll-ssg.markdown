@@ -111,6 +111,7 @@ chulapa-skin:
   vars:
     primary-color: "#ff0000"
     body-bg: "#fbf1ed"
+    
 ```
 
 a [questo link](https://dieghernan.github.io/chulapa/docs/variable-dictionary) è possibile trovare la lista delle variabili modificabili 

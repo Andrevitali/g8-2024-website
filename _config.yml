@@ -19,8 +19,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Progettone Template"
-subtitle: "un template per i progetti del master SoBigData"
+title: "CravIt"
+subtitle: "Trova il Ristorante Perfetto per il Tuo Piatto Preferito"
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -31,9 +31,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 # Riportare il github del gruppo di progetto e quello del sito web (se differente).
 # Tali informazioni appariranno nel Footer del sito.
 github_repo:
-  - name: "Group 0 - Project repository"
+  - name: "Group 8 - Project repository"
     url: "https://github.com/sobigdata-master/progettone-template"
-  - name: "Group 0 - Website repository"
+  - name: "Group 8 - Website repository"
     url: "https://github.com/sobigdata-master/progettone-template"
 
 
@@ -45,7 +45,7 @@ github_repo:
 navbar:
   style :  dual #non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
-    title :  "Progettone Website Guide"
+    title :  "CravIt"
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
@@ -86,9 +86,13 @@ googlefonts:
   - url: "https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap"
 
 chulapa-skin:
-  skin:  "twitter-dim" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
+  skin:  "minty" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
   vars:
-    body-bg: "#1d2d3c"
+    body-bg: "#faebd7"
+    body-color: "#000000"
+    headings-color: "#ff6347"
+    link-color: "#0f6cbd"
+    hero-bg-color: "#2f4f4f"
     # font-family-base: "Comic Neue"
     # headings-font-family: "Lekton"
 
