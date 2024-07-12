@@ -3,7 +3,7 @@
   description: "The app in action"
   path: "bootstrap"
 - name: Why it matters?
-  url:  "assets/images/Roma.jpg"
+  url:  "assets/images/"
   description: "what prompted us"
   path: "jekyll-ssg"
 - name: Our data
