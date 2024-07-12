@@ -1,16 +1,16 @@
-- name: Dati
-  url:  "assets/images/Roma.jpg"
-  description: "Una panoramica dei ristoranti"
-  path: "bootstrap"
-- name: La App
+- name: The App
   url:  "assets/images/app.jpg"
-  description: "La app in azione"
+  description: "The app in action"
+  path: "bootstrap"
+- name: Why it matters?
+  url:  "assets/images/Roma.jpg"
+  description: "what prompted us"
   path: "jekyll-ssg"
-- name: Mappe Folium
+- name: Our data
   url:  "assets/images/mappa_rist.png"
-  description: "Mappe Folium"
-  path: "charts"
-- name: Visualizzazioni Altair
+  description: "Food as proxy of life"
+  path: "data"
+- name: Future plans
   url:  "assets/images/nreview_month.png"
-  description: "Cheatsheet per Markdown e Kramdown"
+  description: "our vision"
   path: "markdown"

@@ -65,5 +65,5 @@ In questo modo, il grafico verrà visualizzato in modo responsive, adattandosi a
 - Se porvassimo a visualizzare il grafico in un notebook Jupyter, il grafico non sarebbe visibile in quanto la proprietà `width='container'` non è supportata in questo ambiente. In tal caso, è possibile specificare una larghezza fissa in pixel e cambiare la proprietà width solo in fase di esportazione. 
 
 ### Esempio di inserimento di un chart realizzato con Altair con un tema personalizzato (dark mode)
-
+ciao
 <vegachart schema-url="{{site.baseurl}}/assets/charts/PriceByLanguage_dark.json" style="width: 100%"></vegachart>

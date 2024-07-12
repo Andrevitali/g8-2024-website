@@ -45,7 +45,7 @@ github_repo:
 navbar:
   style :  dual #non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
-    title :  "CravIt"
+    title :  "CraveIt"
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
@@ -86,15 +86,15 @@ googlefonts:
   - url: "https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap"
 
 chulapa-skin:
-  skin:  "minty" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
+  skin:  "chulapa" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
   vars:
-    body-bg: "#faebd7"
+    body-bg: "#f0fff0"
     body-color: "#000000"
-    headings-color: "#ff6347"
+    headings-color: "#000000"
     link-color: "#0f6cbd"
-    hero-minty-bg-color: "#2f4f4f"
-    footer-minty-bg-color: "#2f4f4f"
-    navbar-minty-bg-color: "#2f4f4f"
+    hero-chulapa-bg-color: "#7ac2ae"
+    footer-chulapa-bg-color: "#7ac2ae"
+    navbar-chulapa-bg-color: "#7ac2ae"
     # font-family-base: "Comic Neue"
     # headings-font-family: "Lekton"
 

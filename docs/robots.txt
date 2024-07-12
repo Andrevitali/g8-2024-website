@@ -1,1 +1,1 @@
-Sitemap: https://danielefadda.github.io/sbd-master-template/sitemap.xml
+Sitemap: https://andrevitali.github.io/g8-2024-website/sitemap.xml

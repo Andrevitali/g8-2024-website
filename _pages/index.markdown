@@ -3,12 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default-full
-title: "CravIt"
-subtitle: "Trova il Ristorante Perfetto per il Tuo Piatto Preferito"
+title: "CraveIt"
+subtitle: "What's the best carbonara in Rome?"
 show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/cibo.jpg
-header_title: "CravIt"
+header_title: "CraveIt"
 ---
 
 <div class="container py-3">
@@ -17,8 +17,7 @@ header_title: "CravIt"
         </div>
         <div class="col-md-6">
             <hr>
-            <p>Questo template è stato disegnato per realizzare i progettoni del master SoBigData.
-Il template proposto è basato su Bootstrap e Jekyll e include una serie di funzionalità che possono essere utili per la creazione di un sito web.</p>
+            <p>Introduction to our project in a few words</p>
             <hr>
         </div>
     </div>
