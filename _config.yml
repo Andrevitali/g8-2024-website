@@ -49,34 +49,34 @@ navbar:
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
-    - title: Dati
+    - title: The App
       url: /bootstrap
-    - title: Sito
+    - title: Why It Matters
       url: /jekyll-ssg
-    - title: Visualizzazioni
+    - title: Our Data
       url: /charts
-    - title: Visualizzazioni
+    - title: Future Plans
       url: /folium-map
-    - title: Write first #Label
-      child:
-        - title: markdown cheatsheet #Label
-          url: /markdown  #url
-        - title: kramdown cheatsheet #Label
-          url: /kramdown #url
-    - title: One page demo
-      child:
-        - title: Demo
-          url: /single
-        - title: "Sezione 1" #Label
-          url: /single#sezione-1 #url
-        - title: "Sezione 1.1" #Label
-          url: /single#sezione-11 #url
-        - title: "Sezione 1.2" #Label
-          url: /single#sezione-12 #url
-        - title: "Gallerie" #Label
-          url: /single#galleria #url
-        - title: "Mappa delle stragi" #Label
-          url: /single#mappa-delle-stragi #url
+    #- title: Write first #Label
+      #child:
+        #- title: markdown cheatsheet #Label
+        #  url: /markdown  #url
+        #- title: kramdown cheatsheet #Label
+        #  url: /kramdown #url
+    #- title: One page demo
+      #child:
+        #- title: Demo
+        #  url: /single
+       # - title: "Sezione 1" #Label
+        #  url: /single#sezione-1 #url
+        #- title: "Sezione 1.1" #Label
+         # url: /single#sezione-11 #url
+        #- title: "Sezione 1.2" #Label
+        #  url: /single#sezione-12 #url
+        #- title: "Gallerie" #Label
+        #  url: /single#galleria #url
+        #- title: "Mappa delle stragi" #Label
+        #  url: /single#mappa-delle-stragi #url
 
 
 

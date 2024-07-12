@@ -2,7 +2,7 @@
   url:  "assets/images/app.jpg"
   description: "The app in action"
   path: "bootstrap"
-- name: Why it matters?
+- name: Why it matters
   url:  "assets/images/"
   description: "what prompted us"
   path: "jekyll-ssg"
