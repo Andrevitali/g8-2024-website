@@ -49,13 +49,13 @@ navbar:
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
-    - title: Bootstrap
+    - title: Storia
       url: /bootstrap
-    - title: Jekyll
+    - title: Sito
       url: /jekyll-ssg
-    - title: Charts
+    - title: Visualizzazioni Altair
       url: /charts
-    - title: Folium
+    - title: Visualizzazioni Folium
       url: /folium-map
     - title: Write first #Label
       child:
@@ -92,7 +92,9 @@ chulapa-skin:
     body-color: "#000000"
     headings-color: "#ff6347"
     link-color: "#0f6cbd"
-    hero-bg-color: "#2f4f4f"
+    hero-minty-bg-color: "#2f4f4f"
+    footer-minty-bg-color: "#2f4f4f"
+    navbar-minty-bg-color: "#2f4f4f"
     # font-family-base: "Comic Neue"
     # headings-font-family: "Lekton"
 
