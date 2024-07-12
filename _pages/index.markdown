@@ -48,7 +48,7 @@ header_title: "CraveIt"
         <div class="col-md-3 col-md-offset-3">
         </div>
         <div class="col-md-6">
-            <p>Vediamo la nostra app</p>
+            <p>Here's our app!</p>
             <a href="{{site.baseurl}}/installation" class="btn btn-info" role="button">La App</a>
         </div>
     </div>
