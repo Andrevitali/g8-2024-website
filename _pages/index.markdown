@@ -3,12 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default-full
-title: "Home"
-subtitle: "un template per i progetti del master SoBigData"
+title: "CravIt"
+subtitle: "Trova il Ristorante Perfetto per il Tuo Piatto Preferito"
 show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/stampo_biscotti.jpg
-header_title: "Progettone Template"
+header_title: "CravIt"
 ---
 
 <div class="container py-3">
