@@ -1,16 +1,16 @@
 - name: Dati
   url:  "assets/images/Roma.jpg"
-  description: "Una panoramica dei ristornati"
+  description: "Una panoramica dei ristoranti"
   path: "bootstrap"
-- name: Jekyll
-  url:  "assets/images/jekyll_t.png"
-  description: "Una panoramica di Jekyll"
+- name: La App
+  url:  "assets/images/app.jpg"
+  description: "La app in azione"
   path: "jekyll-ssg"
-- name: Altair Charts
-  url:  "assets/images/altair-gallery_t.png"
-  description: "Come esportare grafici con Altair"
+- name: Mappe Folium
+  url:  "assets/images/mappa_rist.png"
+  description: "Mappe Folium"
   path: "charts"
-- name: Markdown
-  url:  "assets/images/markdown_t.png"
+- name: Visualizzazioni Altair
+  url:  "assets/images/nreview_month.png"
   description: "Cheatsheet per Markdown e Kramdown"
   path: "markdown"

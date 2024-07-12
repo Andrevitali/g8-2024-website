@@ -55,7 +55,7 @@ navbar:
       url: /jekyll-ssg
     - title: Visualizzazioni
       url: /charts
-    - title: Visualizzazioni 
+    - title: Visualizzazioni
       url: /folium-map
     - title: Write first #Label
       child:
