@@ -2,18 +2,19 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
-title:  "Jekyll SSG"
-subtitle: "Guida al design del sito del progettone"
-show_sidetoc: true
-header_type: hero #base, post, hero,image, splash
-header_img: assets/images/Jekyll_Logo.png
-header_title: "Progettone Template"
-vega: true
+ layout: default
+ title:  "Why it matters"
+ subtitle: "What prompted us"
+ show_sidetoc: true
+# header_type: hero #base, post, hero,image, splash
+# header_img: assets/images/Jekyll_Logo.png
+# header_title: "Progettone Template"
+# vega: true
 ---
 
 
-# Cosa è Jekyll
+# **Why it matters**
+#### What prompted us
 
 Jekyll è un **generatore di siti web statici** pensato per la creazione di siti web personali, blog, pagine di documentazione siti web di progetti. Jekyll è scritto da Tom Preston-Werner, co-fondatore di GitHub. Jekyll è il motore di GitHub Pages, un servizio di hosting web gratuito offerto da GitHub per i repository Git.
 

@@ -1,16 +1,16 @@
 - name: The App
   url:  "assets/images/App.jpg"
-  description: "The app in action"
+  description: "The App in Action"
   path: "theapp"
 - name: Why it matters
   url:  "assets/images/why-it-matters.jpg"
-  description: "what prompted us"
+  description: "What Prompted us"
   path: "what-prompted-us"
 - name: Our data
-  url:  "assets/images/Recensioni_TS.png"
+  url:  "assets/images/ourdata.png"
   description: "Food as a proxy of our lives"
   path: "data"
 - name: Future plans
   url:  "assets/images/futureplans.png"
-  description: "our vision"
-  path: "markdown"
+  description: "Our Vision"
+  path: "our-vision"

@@ -46,17 +46,17 @@ navbar:
   style :  dual #non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
     title :  "CraveIt"
-    img: "./assets/images/Logo_masthead.png"
+    #img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
     - title: The App
-      url: /bootstrap
+      url: /theapp
     - title: Why It Matters
-      url: /jekyll-ssg
+      url: /what-prompted-us
     - title: Our Data
-      url: /charts
+      url: /data
     - title: Future Plans
-      url: /folium-map
+      url: /our-vision
     #- title: Write first #Label
       #child:
         #- title: markdown cheatsheet #Label

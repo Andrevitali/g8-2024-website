@@ -2,16 +2,17 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
-title:  "Bootstrap"
-subtitle: "un accenno a Bootstrap"
-show_sidetoc: true
-header_type: hero #base, post, hero,image, splash
-header_img: assets/images/bootstrap.jpg
-header_title: "Bootstrap"
+  layout: default
+ title:  "The App"
+ subtitle: "How the app works"
+  show_sidetoc: true
+# header_type: hero #base, post, hero,image, splash
+# header_img: assets/images/bootstrap.jpg
+# header_title: "Bootstrap"
 ---
 
-# Introduzione a Bootstrap
+# **The App**
+#### How the app works
 
 Bootstrap è un **framework front-end open-source** che semplifica la progettazione di **siti web reattivi e mobile-first**. Sviluppato da Twitter, Bootstrap fornisce una raccolta di strumenti e componenti predefiniti per la creazione di layout complessi e stilizzati con facilità. Utilizzando HTML, CSS e JavaScript, Bootstrap permette di creare rapidamente pagine web consistenti e professionali.
 

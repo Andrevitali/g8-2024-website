@@ -2,18 +2,19 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 title:  "data"
 subtitle: "File di prova"
 show_sidetoc: true
-header_type: hero #base, post, hero,image, splash
-header_img: assets/images/altair-gallery.png
-header_title: "Altair Charts"
-vega: true
+# header_type: hero #base, post, hero,image, splash
+# header_img: assets/images/altair-gallery.png
+# header_title: "Our Data"
+# vega: true
 ---
 
 
-# Da Python al Web
+# **Our data**
+#### A description of our dataset
 
 Altair è una libreria di visualizzazione dei dati per Python, basata su Vega e Vega-Lite. Ciò significa che Altair genera specifiche Vega-Lite, che a loro volta vengono convertite in specifiche Vega e quindi in grafici visualizzabili in un browser web. Per incorporare un grafico Altair in una pagina web, è necessario convertire la specifica Vega-Lite in un oggetto JSON e salvarlo in un file `.json`.
 
@@ -67,3 +68,20 @@ In questo modo, il grafico verrà visualizzato in modo responsive, adattandosi a
 ### Number of reviews by month
 <vegachart schema-url="{{site.baseurl}}/assets/charts/NReviews_Month.json" style="width:100%"></vegachart>
 
+### Esempio di inserimento di csv
+
+<table>
+  {% for row in site.data.PriceByLanguage %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
