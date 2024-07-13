@@ -1,9 +1,9 @@
 - name: The App
-  url:  "assets/images/App.jpg"
+  url:  "assets/images/App.jpeg"
   description: "The App in Action"
   path: "theapp"
 - name: Why it matters
-  url:  "assets/images/why-it-matters.jpg"
+  url:  "assets/images/why-it-matters.png"
   description: "What Prompted us"
   path: "what-prompted-us"
 - name: Our data
