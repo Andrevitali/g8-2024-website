@@ -1,16 +1,16 @@
 - name: The App
-  url:  "assets/images/app.jpg"
-  description: "The app in action"
-  path: "bootstrap"
-- name: Why it matters?
-  url:  "assets/images/"
-  description: "what prompted us"
-  path: "jekyll-ssg"
+  url:  "assets/images/App.jpg"
+  description: "The App in Action"
+  path: "theapp"
+- name: Why it matters
+  url:  "assets/images/why-it-matters.jpg"
+  description: "What Prompted us"
+  path: "what-prompted-us"
 - name: Our data
-  url:  "assets/images/mappa_rist.png"
-  description: "Food as proxy of life"
+  url:  "assets/images/ourdata.png"
+  description: "Food as a proxy of our lives"
   path: "data"
 - name: Future plans
-  url:  "assets/images/nreview_month.png"
-  description: "our vision"
-  path: "markdown"
+  url:  "assets/images/futureplans.png"
+  description: "Our Vision"
+  path: "our-vision"
