@@ -1,11 +1,11 @@
 - name: The App
   url:  "assets/images/App.jpg"
   description: "The app in action"
-  path: "bootstrap"
+  path: "theapp"
 - name: Why it matters
   url:  "assets/images/why-it-matters.jpg"
   description: "what prompted us"
-  path: "jekyll-ssg"
+  path: "what-prompted-us"
 - name: Our data
   url:  "assets/images/Recensioni_TS.png"
   description: "Food as a proxy of our lives"
