@@ -58,6 +58,10 @@ In questo modo, il grafico verrà visualizzato in modo responsive, adattandosi a
 <br>
 ### Esempio di inserimento di un chart realizzato con Altair 
 <hr>
+<br>
+### Esempio di inserimento di un chart realizzato con Altair 13 Luglio 
+<hr>
+
 <vegachart schema-url="{{site.baseurl}}/assets/charts/PriceByLanguage.json" style="width: 100%"></vegachart>
 
 <hr>
@@ -85,3 +89,31 @@ In questo modo, il grafico verrà visualizzato in modo responsive, adattandosi a
     {% endtablerow %}
   {% endfor %}
 </table>
+
+
+### Mappa di Folium
+
+<iframe src="/assets/charts/mappa_ristoranti_ratio_italian.html" width="100%" height="500px" ></iframe>
+<iframe src="/assets/charts/mappa_ristoranti.html" width="100%" height="500px" ></iframe>
+<iframe src="/assets/charts/mappa_ristoranti_prezzi.html" width="100%" height="500px" ></iframe>
+<iframe src="/assets/charts/mappa_ristoranti_n_recensioni.html" width="100%" height="500px" ></iframe>
+<iframe src="/assets/charts/mappa_ristoranti_stelle.html" width="100%" height="500px" ></iframe>
+
+#### Where are the restaurants?
+<iframe src="/assets/charts/mapchloropleth_nristoranti.html" width="100%" height="500px" ></iframe>
+
+#### Where are the expensive restaurants?
+<iframe src="/assets/charts/mapchloroplethcari.html" width="100%" height="500px" ></iframe>
+
+#### Where are the cheap restaurants?
+<iframe src="/assets/charts/mapchloropletheconomici.html" width="100%" height="500px" ></iframe>
+
+#### Where are most highly rated restaurants?
+<iframe src="/assets/charts/mapchloropleth_highlyrated.html" width="100%" height="500px" ></iframe>
+
+#### Where are the restaurants with most Italian customers?
+<iframe src="/assets/charts/Chloroplet_ItalianReviews_ratio.html" width="100%" height="500px" ></iframe>
+
+#### Where are the restaurants with most Non-Italian customers?
+<iframe src="/assets/charts/chloroplet_nonitalianreviews_ratio.html" width="100%" height="500px" ></iframe>
+
