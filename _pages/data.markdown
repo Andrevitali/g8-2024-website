@@ -93,10 +93,19 @@ In questo modo, il grafico verrà visualizzato in modo responsive, adattandosi a
 
 ### Mappa di Folium
 
-<iframe src="/assets/charts/mappa_ristoranti_ratio_italian.html" width="100%" height="500px" ></iframe>
+### Where are our restaurants?
 <iframe src="/assets/charts/mappa_ristoranti.html" width="100%" height="500px" ></iframe>
+
+### Where do tourists go?
+<iframe src="/assets/charts/mappa_ristoranti_ratio_italian.html" width="100%" height="500px" ></iframe>
+
+### How much do the restaurants cost?
 <iframe src="/assets/charts/mappa_ristoranti_prezzi.html" width="100%" height="500px" ></iframe>
+
+### Where are the most reviewed restaurants?
 <iframe src="/assets/charts/mappa_ristoranti_n_recensioni.html" width="100%" height="500px" ></iframe>
+
+### Where are the best rated restaurants?
 <iframe src="/assets/charts/mappa_ristoranti_stelle.html" width="100%" height="500px" ></iframe>
 
 #### Where are the restaurants?
