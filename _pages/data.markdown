@@ -9,7 +9,7 @@ show_sidetoc: true
 # header_type: hero #base, post, hero,image, splash
 # header_img: assets/images/altair-gallery.png
 # header_title: "Our Data"
-# vega: true
+vega: true
 ---
 
 
