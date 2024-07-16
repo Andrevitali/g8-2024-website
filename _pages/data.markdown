@@ -90,39 +90,4 @@ In questo modo, il grafico verrà visualizzato in modo responsive, adattandosi a
   {% endfor %}
 </table>
 
-
-### Mappa di Folium
-
-### Where are our restaurants?
-<iframe src="{{site.baseurl}}/assets/charts/mappa_ristoranti.html" width="100%" height="500px" ></iframe>
-
-### Where do tourists go?
-<iframe src="{{site.baseurl}}/assets/charts/mappa_ristoranti_ratio_italian.html" width="100%" height="500px" ></iframe>
-
-### How much do the restaurants cost?
-<iframe src="{{site.baseurl}}/assets/charts/mappa_ristoranti_prezzi.html" width="100%" height="500px" ></iframe>
-
-### Where are the most reviewed restaurants?
-<iframe src="{{site.baseurl}}/assets/charts/mappa_ristoranti_n_recensioni.html" width="100%" height="500px" ></iframe>
-
-### Where are the best rated restaurants?
-<iframe src="{{site.baseurl}}/assets/charts/mappa_ristoranti_stelle.html" width="100%" height="500px" ></iframe>
-
-#### Where are the restaurants?
-<iframe src="{{site.baseurl}}/assets/charts/mapchloropleth_nristoranti.html" width="100%" height="500px" ></iframe>
-
-#### Where are the expensive restaurants?
-<iframe src="{{site.baseurl}}/assets/charts/mapchloroplethcari.html" width="100%" height="500px" ></iframe>
-
-#### Where are the cheap restaurants?
-<iframe src="{{site.baseurl}}/assets/charts/mapchloropletheconomici.html" width="100%" height="500px" ></iframe>
-
-#### Where are most highly rated restaurants?
-<iframe src="{{site.baseurl}}/assets/charts/mapchloropleth_highlyrated.html" width="100%" height="500px" ></iframe>
-
-#### Where are the restaurants with most Italian customers?
-<iframe src="{{site.baseurl}}/assets/charts/Chloroplet_ItalianReviews_ratio.html" width="100%" height="500px" ></iframe>
-
-#### Where are the restaurants with most Non-Italian customers?
-<iframe src="{{site.baseurl}}/assets/charts/chloroplet_nonitalianreviews_ratio.html" width="100%" height="500px" ></iframe>
-
+{% include map-selector.html dataset="maps-selector" %}
