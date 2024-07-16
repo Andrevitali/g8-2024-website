@@ -25,7 +25,7 @@ header_title: "CraveIt"
 
 <div class="row pb-5">
     <div class="col-md-12 col-sm-12">
-        <div class="card-container">
+        <div id="home-cards" class="card-container">
             {% for image in site.data.home-cards %}
             <div class="card" style="width: 18rem;">
                     <a href="{{site.baseurl}}{{ image.path}}">

@@ -46,7 +46,7 @@ navbar:
   style :  dual #non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
     title :  "CraveIt"
-    #img: "./assets/images/Logo_masthead.png"
+    img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
     - title: The App
@@ -81,10 +81,8 @@ navbar:
 
 
 googlefonts:
-  - url: "https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-  - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-  - url: "https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap"
   - url: "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+  - url: "https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
 
 chulapa-skin:
   skin:  "chulapa" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
@@ -97,7 +95,7 @@ chulapa-skin:
     footer-chulapa-bg-color: "#7ac2ae"
     navbar-chulapa-bg-color: "#7ac2ae"
     font-family-base: "Open Sans"
-    headings-font-family: "Open Sans"
+    headings-font-family: "Oswald"
 
 
 #chulapa-skin:
