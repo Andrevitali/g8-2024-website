@@ -38,7 +38,7 @@
 
                                         {% assign restaurants = site.data[dish.id] %}
                                         {% if restaurants %}
-                                        {% assign restaurants_sorted = restaurants | sort: 'N_5_stars' | reverse %}
+                                        {% assign restaurants_sorted = restaurants | sort: 'CraveIt_score' | reverse %}
                                         {% for restaurant in restaurants_sorted %}
                                         <div class="container webapp-modal">
                                             <div class="row">
@@ -53,7 +53,7 @@
                                                                             data-target="#restaurant-{{restaurant.id}}"
                                                                             aria-expanded="true"
                                                                             aria-controls="{{restaurant.id}}">
-                                                            <span class="badge badge-primary">{{restaurant.N_5_stars}}  <i
+                                                            <span class="badge badge-primary">{{restaurant.CraveIt_score}}  <i
                                                                     class="fa-solid fa-star"></i> </span>
                                                                         <span class="r-title">{{restaurant.name}}</span>
                                                                         <span class="hamburger">
