@@ -17,8 +17,8 @@ header_title: "CraveIt"
         </div>
         <div class="col-md-6">
             <hr>
-            <p>CraveIT is the project that answers the famous question 'where are we going to eat?'
-We decided to answer the question based on what you want to eat, so having chosen a dish CraveIT tells us which restaurants are the best based on a specially defined ranking.</p>
+            <p>CraveIT is your go-to solution for answering the age-old question, "Where are we going to eat?". 
+Unlike typical restaurant apps, instead of merely suggesting good restaurants, CraveIT focuses on what you actually want to eat. By selecting a dish, CraveIT uses a specially defined ranking system to recommend the best restaurants for that particular dish. Whether you're craving carbonara, amatriciana, or supplì, CraveIT ensures that you find the top-rated places to satisfy your appetite.</p>
             <hr>
         </div>
     </div>
