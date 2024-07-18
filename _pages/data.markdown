@@ -73,7 +73,7 @@ In questo modo, il grafico verrà visualizzato in modo responsive, adattandosi a
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_Total.json" style="width:100%"></vegachart>
 
 ### Reviews by language
-<vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_NItalianvsNonItalian.json" style="width:100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_N_ItalianvsNonItalian.json" style="width:100%"></vegachart>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_NForeignReviewsbyLanguage.json" style="width:100%"></vegachart>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_Italian_NonItalian.json" style="width:100%"></vegachart>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_byItalian_NonItalian_Normalized.json" style="width:100%"></vegachart>
