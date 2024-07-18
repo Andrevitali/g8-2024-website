@@ -76,20 +76,19 @@
 
                                                                     {% if restaurant.hours %}
                                                                     {% assign orari = restaurant.hours %}
-                                                                    {% assign orari = orari | replace: "{", "" |
-                                                                    replace: "}",
-                                                                    "" |
-                                                                    replace: "'", "" %}
-                                                                    {% assign orari = orari | split: ", " %}
+                                                                    {% assign orari = orari 
+                                                                    | replace: "{", "" 
+                                                                    | replace: "}", "" 
+                                                                    | replace: "', '", "-"
+                                                                    | replace: "'", ""
+                                                                    | replace: "[", ""%}
+                                                                    {% assign orari = orari | split: "], " %}
                                                                     <div class="orari" style="font-size:0.8rem">
                                                                         <hr>
                                                                         {% for orario in orari %}
-                                                                        {% assign giorno_valori = orario | split: ": "
-                                                                        %}
+                                                                        {% assign giorno_valori = orario | split: ": " %}
                                                                         {% assign giorno = giorno_valori[0] %}
-                                                                        {% assign valori = giorno_valori[1] | replace:
-                                                                        "[", "" |
-                                                                        replace: "]", "" %}
+                                                                        {% assign valori = giorno_valori[1] | replace: "]", "" %}
                                                                         <strong>{{ giorno }}:</strong> {{ valori }}
 
                                                                         {% endfor %}
