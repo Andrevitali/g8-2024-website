@@ -5,12 +5,7 @@
             <div id="dish-{{ dish.id }}-card" class="card" data-toggle="modal" data-target="#dish-{{dish.id}}"
                  style="cursor: pointer">
                 <div class="card-img">
-                    {% if dish.immagine == "/assets/images/carbonara.jpg" %}
                     <img src="{{site.baseurl}}{{dish.immagine}}" class="card-img-top" alt="{{ dish.nome }}">
-                    {% else %}
-                    <img src="{{site.baseurl}}/assets/images/placeholder_squared.png" class="card-img-top"
-                         alt="{{ dish.nome }}">
-                    {% endif %}
                     <div class="dish-title">
                         <h5>{{ dish.nome }}</h5>
                     </div>
