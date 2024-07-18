@@ -41,7 +41,7 @@
 - id: "9_carciofi_alla_romana"
   nome: "Carciofi alla Romana"
   descrizione: "Carciofi cotti con aglio, mentuccia romana e olio d'oliva."
-  immagine: "/assets/images/icone/carciofi.png"
+  immagine: "/assets/images/icone/carciofi2.png"
   mappa: "/assets/maps/mappa_carciofiallaromana.html"
 - id: "10_carciofi_alla_giudia"
   nome: "Carciofi alla Giudia"
