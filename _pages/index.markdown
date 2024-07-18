@@ -17,7 +17,8 @@ header_title: "CraveIt"
         </div>
         <div class="col-md-6">
             <hr>
-            <p>Introduction to our project in a few words</p>
+            <p>CraveIT is the project that answers the famous question 'where are we going to eat?'
+We decided to answer the question based on what you want to eat, so having chosen a dish CraveIT tells us which restaurants are the best based on a specially defined ranking.</p>
             <hr>
         </div>
     </div>
