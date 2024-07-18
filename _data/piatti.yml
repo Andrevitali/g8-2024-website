@@ -1,89 +1,76 @@
-- id: 1
+- id: "1_carbonara"
   nome: "Carbonara"
   descrizione: "Un piatto di pasta fatto con uova, formaggio Pecorino Romano, guanciale e pepe nero."
   immagine: "/assets/images/carbonara.jpg"
-  url: "https://example.com/ricette/carbonara"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 2
   nome: "Amatriciana"
   descrizione: "Un piatto di pasta con salsa di pomodoro, guanciale, Pecorino Romano e peperoncino."
   immagine: "https://example.com/images/amatriciana.jpg"
-  url: "https://example.com/ricette/amatriciana"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 3
   nome: "Cacio e Pepe"
   descrizione: "Pasta condita con formaggio Pecorino Romano e pepe nero."
   immagine: "https://example.com/images/cacio_e_pepe.jpg"
-  url: "https://example.com/ricette/cacio_e_pepe"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 4
   nome: "Saltimbocca alla Romana"
   descrizione: "Scaloppine di vitello con prosciutto crudo e salvia, cotte nel vino bianco."
   immagine: "https://example.com/images/saltimbocca.jpg"
-  url: "https://example.com/ricette/saltimbocca_alla_romana"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 5
   nome: "Coda alla Vaccinara"
   descrizione: "Coda di bue stufata con pomodoro, sedano e vari aromi."
   immagine: "https://example.com/images/coda_alla_vaccinara.jpg"
-  url: "https://example.com/ricette/coda_alla_vaccinara"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 6
   nome: "Trippa alla Romana"
   descrizione: "Trippa cotta in una salsa di pomodoro con menta e Pecorino Romano."
   immagine: "https://example.com/images/trippa_alla_romana.jpg"
-  url: "https://example.com/ricette/trippa_alla_romana"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 7
   nome: "Abbacchio alla Romana"
   descrizione: "Agnello giovane cotto con rosmarino, aglio e vino bianco."
   immagine: "https://example.com/images/abbacchio_alla_romana.jpg"
-  url: "https://example.com/ricette/abbacchio_alla_romana"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 8
   nome: "Supplì"
   descrizione: "Palle di riso ripiene di mozzarella, impanate e fritte."
   immagine: "https://example.com/images/suppli.jpg"
-  url: "https://example.com/ricette/suppli"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 9
   nome: "Carciofi alla Romana"
   descrizione: "Carciofi cotti con aglio, mentuccia romana e olio d'oliva."
   immagine: "https://example.com/images/carciofi_alla_romana.jpg"
-  url: "https://example.com/ricette/carciofi_alla_romana"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 10
   nome: "Carciofi alla Giudia"
   descrizione: "Carciofi fritti in olio d'oliva secondo la tradizione ebraica."
   immagine: "https://example.com/images/carciofi_alla_giudia.jpg"
-  url: "https://example.com/ricette/carciofi_alla_giudia"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 11
   nome: "Gnocchi alla Romana"
   descrizione: "Gnocchi di semolino cotti al forno con burro e Parmigiano."
   immagine: "https://example.com/images/gnocchi_alla_romana.jpg"
-  url: "https://example.com/ricette/gnocchi_alla_romana"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 12
   nome: "Fiori di Zucca Ripieni"
   descrizione: "Fiori di zucca ripieni di mozzarella e acciughe, poi fritti."
   immagine: "https://example.com/images/fiori_di_zucca.jpg"
-  url: "https://example.com/ricette/fiori_di_zucca_ripieni"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 13
   nome: "Bucatini all'Amatriciana"
   descrizione: "Una variante della pasta all'Amatriciana, preparata con bucatini."
   immagine: "https://example.com/images/bucatini_amatriciana.jpg"
-  url: "https://example.com/ricette/bucatini_all_amatriciana"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 14
   nome: "Maritozzo"
   descrizione: "Panino dolce ripieno di panna montata."
   immagine: "https://example.com/images/maritozzo.jpg"
   url: "https://example.com/ricette/maritozzo"
-
+  mappa: "/assets/maps/mappa_carbonara.html"
 - id: 15
   nome: "Porchetta"
   descrizione: "Maiale intero disossato, condito con erbe aromatiche e arrostito."
   immagine: "https://example.com/images/porchetta.jpg"
-  url: "https://example.com/ricette/porchetta"
+  mappa: "/assets/maps/mappa_carbonara.html"
