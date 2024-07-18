@@ -6,8 +6,8 @@ layout: default-full
 title: "CraveIt"
 subtitle: "What's the best carbonara in Rome?"
 show_sidetoc: true
-header_type: hero #base, post, hero,image, splash
-header_img: assets/images/header.png
+header_type: splash #base, post, hero,image, splash
+header_img: assets/images/header.jpg
 header_title: "CraveIt"
 ---
 

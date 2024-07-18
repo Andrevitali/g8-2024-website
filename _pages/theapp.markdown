@@ -29,7 +29,8 @@ The proposed results depend on the ristornati ranking algorithm at the base of t
 
 #### Overview 
 
-<img title="Overview" alt="Alt text" src="assets/images/overview_app.jpeg">
+<img title="Overview" align="left" width="200px" src="assets/images/overview_app.jpeg">
+
 
 'CraveIT' presents a simple overview page where you can search for the dish you want to try, just type the dish in the search bar and the app will suggest the full name of the dish.
 
@@ -48,7 +49,7 @@ Before starting the search it is possible to set a number of filters, in fact in
 
 #### Ranking  
 
-<img title="Ranking" alt="Alt text" src="assets/images/ranking.jpeg">
+<img title="Ranking" align="right" width="200px" src="assets/images/ranking.jpeg">
 
 Once you choose the desired dish and filters you land on the new page that shows the top five restaurants with respect to the calculated ranking.
 The restaurants are sorted in descending order by ranking, with a maximum score of 1 and a maximum score of 10.
@@ -56,9 +57,10 @@ For each restaurant, clicking shows the geolocation, references and price range.
 
 For a more comprehensive detail of the restaurant simply click on the restaurant name and you will be redirected to the **'Restaurant detail** section.
 
+
 #### Restaurant details 
 
-<img title="Ranking" alt="Alt text" src="assets/images/restaurant_detail.jpeg">
+<img title="Ranking" align="left" width="200px" src="assets/images/restaurant_detail.jpeg">
 
 The restaurant-related detail page provides an overview of the restaurant's offerings.
 In fact, there is a brief description of the restaurant, some aggregate information, such as the number of users who have rated the restaurant fantastic.
@@ -66,9 +68,11 @@ Finally, possible places of interest near the restaurant can be displayed on the
 
 This allows you to organize not only a lunch or dinner, but more generally a small tour focused on the city's gastronomic offerings.
 
+
+
 #### Navigation 
 
-<img title="Ranking" alt="Alt text" src="assets/images/navigazione.jpeg">
+<img title="Ranking" width="500px" alt="Alt text" src="assets/images/navigazione.jpeg">
 
 After selecting the filters just click on the button for the chosen dish, or select the dish from the search bar. 
 After selection you will land on the ranking page related to your choice. Here you can select the restaurant, to see its details, or you can go back to start a new search.
