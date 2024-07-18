@@ -1,0 +1,61 @@
+{% assign dataset = site.data[include.dataset] %}
+<style>
+  question { text-transform: lowercase; }
+  question::first-letter { text-transform: uppercase }
+</style>
+
+<div class="{% if include.container == 'fluid' %}container-fluid{% else %}container{% endif %}">
+    <div class="row pt-2">
+        <div class="col-12">
+            {% for chart in {{dataset}} %}
+            <button class="btn btn-primary chart-button my-1" src="{{site.baseurl}}/{{ chart.url }}" data-name="{{chart.name}}">
+                <span class="question-number">{{ chart.id }}</span> <span class="question">{{ chart.name }}</span>
+            </button>
+
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row pt-2">
+        <div class="col-12">
+<!--            <iframe id="displayed-chart" src="{{site.baseurl}}/assets/charts/mappa_ristoranti.html" width="100%" height="500"></iframe>-->
+            <div id="chart-container"></div>
+            <p id="chart-name"></p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+
+        const chartButtons = document.querySelectorAll('.chart-button');
+        const chartName = document.getElementById('chart-name');
+
+        function displayChart(chartUrl, chartNameText) {
+            const fMap = document.createElement('iframe');
+            const chartContainer = document.getElementById('chart-container');
+            const chartName = document.getElementById('chart-name');
+            chartContainer.innerHTML = '';
+            fMap.setAttribute('src', chartUrl);
+            fMap.style.width = '100%';
+            fMap.style.height = '500px';
+
+            chartContainer.appendChild(fMap);
+            chartName.setAttribute('data-name', chartNameText);
+
+
+        }
+
+        chartButtons.forEach(function (button) {
+            button.addEventListener('click', function () {
+                const chartUrl = this.getAttribute('src');
+                const chartName = this.getAttribute('data-name');
+                chartName.textContent = chartName;
+                displayChart(chartUrl, chartName);
+            });
+        });
+        if (chartButtons.length > 0) {
+            chartButtons[0].click();
+        }
+    });
+</script>
+

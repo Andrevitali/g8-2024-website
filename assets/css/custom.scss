@@ -7,6 +7,10 @@
   scroll-margin-top: 60px; /* Imposta lo spazio di scorrimento prima dell'elemento ancorato */
 }
 
+//html {
+//  font-size: 18px;
+//}
+
 .tech {
   background-color: rgba(216, 248, 217, 0.7);
   padding: 20px;
@@ -117,6 +121,8 @@
   font-style: normal;
 }
 
+
+
 // Backgound full width color:
 .bg-color-full {
     clip-path: inset(0 -100vmax);
@@ -135,4 +141,9 @@ iframe {
 // wrench
 .tech-wrench .fa-wrench:hover {
   transform: scale(1, 1) !important;
+}
+
+// home cards title in uppercase
+#home-cards h5 {
+  text-transform: uppercase;
 }

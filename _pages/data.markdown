@@ -9,7 +9,7 @@ show_sidetoc: true
 # header_type: hero #base, post, hero,image, splash
 # header_img: assets/images/altair-gallery.png
 # header_title: "Our Data"
-# vega: true
+vega: true
 ---
 
 
@@ -58,6 +58,10 @@ In questo modo, il grafico verrà visualizzato in modo responsive, adattandosi a
 <br>
 ### Esempio di inserimento di un chart realizzato con Altair 
 <hr>
+<br>
+### Esempio di inserimento di un chart realizzato con Altair 13 Luglio 
+<hr>
+
 <vegachart schema-url="{{site.baseurl}}/assets/charts/PriceByLanguage.json" style="width: 100%"></vegachart>
 
 <hr>
@@ -66,8 +70,13 @@ In questo modo, il grafico verrà visualizzato in modo responsive, adattandosi a
 - Se porvassimo a visualizzare il grafico in un notebook Jupyter, il grafico non sarebbe visibile in quanto la proprietà `width='container'` non è supportata in questo ambiente. In tal caso, è possibile specificare una larghezza fissa in pixel e cambiare la proprietà width solo in fase di esportazione. 
 
 ### Number of reviews by month
-<vegachart schema-url="{{site.baseurl}}/assets/charts/NReviews_Month.json" style="width:100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_Total.json" style="width:100%"></vegachart>
 
+### Reviews by language
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_NItalianvsNonItalian.json" style="width:100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_NForeignReviewsbyLanguage.json" style="width:100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_Italian_NonItalian.json" style="width:100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_byItalian_NonItalian_Normalized.json" style="width:100%"></vegachart>
 ### Esempio di inserimento di csv
 
 <table>
@@ -85,3 +94,5 @@ In questo modo, il grafico verrà visualizzato in modo responsive, adattandosi a
     {% endtablerow %}
   {% endfor %}
 </table>
+
+{% include map-selector.html dataset="maps-selector" %}

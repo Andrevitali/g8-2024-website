@@ -118,4 +118,8 @@ iframe {
   transform: scale(1, 1) !important;
 }
 
+#home-cards h5 {
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=custom.css.map */
