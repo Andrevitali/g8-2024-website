@@ -14,17 +14,16 @@
 # **The App**
 ## The idea
 
-The 'CraveIT' app was designed by trying to identify restaurants that were best loved for their traditional food offerings. 
-In particular, users will be able to know where to find the most beloved carbonara in Rome!
-Users will be able to log in, decide what they want to eat, and based on the dish selected, the best restaurants will be recommended!
+The 'CraveIT' app has been designed to identify restaurants that are most loved for the traditional food they serve. 
+In particular, users can find where to get the most beloved carbonara in Rome! 
+Users can log in, decide what they want to eat, and based on their selected dish, the best restaurants will be recommended!
 
 
 ## How the app works
 
-'CraveIT' allows you to select a dish of Roman cuisine and recommends the best restaurants based on the chosen dish. 
-In addition, the user can decide to set a number of filters in order to have a more personalized response. 
+CraveIT lets you select a dish from the traditional Roman cuisine and recommends the best restaurants based on your chosen dish. Additionally, you can set a series of filters for a more personalized response.
 
-The proposed results depend on the ristornati ranking algorithm at the base of the application, this takes into account many factors, including customer feedback, expert opinion, restaurant reliability and specialization of the analyzed restaurants.
+The recommended results are based on the app's ranking algorithm that considers several factors, including customer feedback, expert opinions, restaurant reliability, and the specialization of the analyzed restaurants.
 
 
 #### Overview 
@@ -34,39 +33,38 @@ The proposed results depend on the ristornati ranking algorithm at the base of t
 
 'CraveIT' presents a simple overview page where you can search for the dish you want to try, just type the dish in the search bar and the app will suggest the full name of the dish.
 
-Alternatively, immediately below the search bar are some shortcuts: buttons with icons identifying the most popular dishes in Rome. Simply click on the desired dish to start the search
+Alternatively, immediately below the search bar are some shortcuts: buttons with icons identifying the most popular dishes in Rome. Simply click on the desired dish to start the search.
 
-Before starting the search it is possible to set a number of filters, in fact in the 'Filters' section the following filters are available:
-  - vegan options
-  - payment by card
-  - accessibility for users with reduced mobility 
-  - the price range
-  - the average ratings of the restaurants
-  - the neighborhood
-  - the distance with respect to the user's geolocation
-  - whether the restaurants are mentioned by food guides
+Before starting the search you can set a series of filters. In the 'Filters' section the following options are available:
+  - Vegan options
+  - Payment by card
+  - Accessibility for users with reduced mobility 
+  - Price range
+  - Average ratings of the restaurants
+  - Neighborhood
+  - Distance with respect to the user's geolocation
+  - Presence in food guides
 
 
 #### Ranking  
 
 <img title="Ranking" align="right" width="200px" src="assets/images/ranking.jpeg">
 
-Once you choose the desired dish and filters you land on the new page that shows the top five restaurants with respect to the calculated ranking.
-The restaurants are sorted in descending order by ranking, with a maximum score of 1 and a maximum score of 10.
-For each restaurant, clicking shows the geolocation, references and price range.
+Once you have chosen your desired dish and filters, you land on a new page that shows you the top ten restaurants ordered in the ranking calculated by the algorithm.
+The restaurants are sorted in descending order, with a minimum score of 1 and a maximum score of 10.
+For each restaurant, its geolocation is shown.
 
-For a more comprehensive detail of the restaurant simply click on the restaurant name and you will be redirected to the **'Restaurant detail** section.
+For more comprehensive information on the restaurant, simply click on the restaurant's name and you will be redirected to the **'Restaurant detail** section.
 
 
 #### Restaurant details 
 
 <img title="Ranking" align="left" width="200px" src="assets/images/restaurant_detail.jpeg">
 
-The restaurant-related detail page provides an overview of the restaurant's offerings.
-In fact, there is a brief description of the restaurant, some aggregate information, such as the number of users who have rated the restaurant fantastic.
-Finally, possible places of interest near the restaurant can be displayed on the map.
+The restaurant detail page provides an overview of the restaurant's offerings. It includes a brief description of the restaurant and aggregate information, such as the number of users who have rated the restaurant as excellent. 
+In addition, nearby places of interest can be displayed on the map.
 
-This allows you to organize not only a lunch or dinner, but more generally a small tour focused on the city's gastronomic offerings.
+This feature allows you to organize not only a lunch or dinner but also a small tour focused on the city's gastronomic offerings.
 
 
 
@@ -74,8 +72,8 @@ This allows you to organize not only a lunch or dinner, but more generally a sma
 
 <img title="Ranking" width="500px" alt="Alt text" src="assets/images/navigazione.jpeg">
 
-After selecting the filters just click on the button for the chosen dish, or select the dish from the search bar. 
-After selection you will land on the ranking page related to your choice. Here you can select the restaurant, to see its details, or you can go back to start a new search.
+After you set the filters, click on the button for your chosen dish or select the dish from the search bar. 
+Once the selection is made, you will be directed to the ranking page for that dish. Here, you can select a restaurant, view its details, or go back and start a new search.
 
 
 
