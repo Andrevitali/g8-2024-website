@@ -57,6 +57,9 @@ navbar:
       url: /data
     - title: Future Plans
       url: /our-vision
+    - title: Search
+      url: /search
+
     #- title: Write first #Label
       #child:
         #- title: markdown cheatsheet #Label
