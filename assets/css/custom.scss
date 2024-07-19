@@ -153,11 +153,11 @@ iframe {
 }
 
 hr.my-3 {
-    border: none; // Remove default border
-    height: 2px; // Set the height of the HR to make it visible as a line
-    background-color: black; // Set the background color to black
-    margin-top: 1rem; // Optional: adjust vertical spacing
-    margin-bottom: 1rem; // Optional: adjust vertical spacing
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .p-summary{
@@ -165,14 +165,18 @@ hr.my-3 {
 }
 
 .p-name, .p-summary {
-    text-shadow: none !important;  // Removes text shadows
-    box-shadow: none !important;  // If there's any box shadow, though unusual for text
+    text-shadow: none !important;
+    box-shadow: none !important;
 }
 
 hr.my-3 {
-    box-shadow: none !important;  // Removes box shadows from the horizontal rule
+    box-shadow: none !important;
 }
 
 #homepage-cards .card {
-  background-color: #FFCC67;  /* Warm yellow background */
+  background-color: #FFCC67;
+}
+
+#homepage-cards .card a {
+  color: black;
 }
