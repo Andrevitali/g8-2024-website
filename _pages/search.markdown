@@ -2,7 +2,7 @@
 layout: default-full
 title: "CraveIt - Dish of the Day"
 header_type: base #base, post, hero,image, splash
-header_img: assets/images/header.png
+header_img: assets/images/header.jpg
 header_title: "Tell us what you are craving"
 vega: true
 ---
