@@ -18,35 +18,76 @@ vega: true
 
 <iframe src="{{site.baseurl}}/assets/charts/mappa_ristoranti.html" width="{{include.width  | default: '100%'  }}" height="{{include.height   | default: '400px'  }}" ></iframe>
 
-Altair è una libreria di visualizzazione dei dati per Python, basata su Vega e Vega-Lite. Ciò significa che Altair genera specifiche Vega-Lite, che a loro volta vengono convertite in specifiche Vega e quindi in grafici visualizzabili in un browser web. Per incorporare un grafico Altair in una pagina web, è necessario convertire la specifica Vega-Lite in un oggetto JSON e salvarlo in un file `.json`.
+<hr>
+
+Descrizione veloce del dataset + introduzione al fatto che qui presentiamo i nostri dati e perché CraveIT è importante: dati descrivono fenomeni culturali
+
+<hr>
 
 
 ### Number of reviews by month
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_Total.json" style="width:100%"></vegachart>
 
+<hr>
+
 Andamento temporale reviews 
 calo covid
 ancora non si è ripreso
 stagionalità  (minimi mesi invernali, massimo estivi)
+<hr>
+
 
 ### Reviews by language
+
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_N_ItalianvsNonItalian.json" style="width:100%"></vegachart>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_NForeignReviewsbyLanguage.json" style="width:100%"></vegachart>
+
+<hr>
 La maggior parte italiani, distribuzione di non italiani
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_Italian_NonItalian.json" style="width:100%"></vegachart>
-andamento recensioni italiane e non ma vediamo il grafico dopo
-<vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_byItalian_NonItalian_Normalized.json" style="width:100%"></vegachart>
-normalizzando si vede un andamento prima covid regolare: mesi invernali più italiani fino ad un 50% nei mesi estivi. L'adamento è sperturbato dal covid, fino al 2022. Dal 2022 l'andamento si riprende completamente. Non tutte le lingue seguono lo stesso andamento.
+<hr>
 
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_Italian_NonItalian.json" style="width:100%"></vegachart>
+
+<hr>
+andamento recensioni italiane e non ma vediamo il grafico dopo
+
+<hr>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_byItalian_NonItalian_Normalized.json" style="width:100%"></vegachart>
+
+<hr>
+normalizzando si vede un andamento prima covid regolare: mesi invernali più italiani fino ad un 50% nei mesi estivi. L'adamento è sperturbato dal covid, fino al 2022. Dal 2022 l'andamento si riprende completamente. Non tutte le lingue seguono lo stesso andamento.
+<hr>
 L'informazione interessante sono le recensioni in russo: è evidente che dal covid a causa della guerra
+<hr>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607_NReviews_Russian.json" style="width:100%"></vegachart>
+
+<hr>
+
+Partendo da questi dati abbiamo deciso di considerare solo le recensioni in italiano, anche sotto consiglio di NOME,critico gastronomico.
+<hr>
+Dal grafico risulta evidente che la cultura, e dunque il gusto, influenza l'entusiasmo con cui vengono recensiti i vari ristoranti.
+<hr>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1407Bar_Ratings_byLanguage.json" style="width:100%"></vegachart>
+<hr>
+Vediamo che i dati sono coerenti con ciò che ci aspettiamo, vedendo che persone che provengono da paesi più ricchi frequentano ristornati più cari e viceversa
+<hr>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/PriceByLanguage.json" style="width: 100%"></vegachart>
+<hr>
+Inoltre, a conferma di quanto osservato i ristoranti più economici sono anche quelli con recensioni più positive. Una possibile spiegazione è il fatto che questi ristoranti sono frequentati da persone che vengono da paesi culturalmente simili al nostro.
+Ovviamente, bisogna anche osservare che chi meno spende meno pretende.
+<hr>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_ReviewbyStars.json" style="width: 100%"></vegachart>
+
 
 ### Reviews by type
 L'andamento delle recensioni varia anche per tipologia, andamento generale:
+<hr>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607_NReviews_byMonth&Party.json" style="width:100%"></vegachart>
+<hr>
 
 è interessante notare che le reviews per business hanno subito un forte decremento durante il covid ma non sono più tornate ai livelli precedenti.
+<hr>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607_NReviews_byMonth_Business.json" style="width:100%"></vegachart>
 
 
