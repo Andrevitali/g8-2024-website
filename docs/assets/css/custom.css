@@ -122,4 +122,29 @@ iframe {
   text-transform: uppercase;
 }
 
+.p-name {
+  color: black !important;
+}
+
+hr.my-3 {
+  border: none;
+  height: 2px;
+  background-color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.p-summary {
+  color: black !important;
+}
+
+.p-name, .p-summary {
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+hr.my-3 {
+  box-shadow: none !important;
+}
+
 /*# sourceMappingURL=custom.css.map */

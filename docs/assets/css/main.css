@@ -48,6 +48,31 @@ label,
  * Copyright 2020 Chulapa Jekyll Skin Author
  * Licensed under MIT
  */
+.p-name {
+  color: black !important;
+}
+
+hr.my-3 {
+  border: none;
+  height: 2px;
+  background-color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.p-summary {
+  color: black !important;
+}
+
+.p-name, .p-summary {
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+hr.my-3 {
+  box-shadow: none !important;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
