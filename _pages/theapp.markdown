@@ -28,7 +28,7 @@ The recommended results are based on the app's ranking algorithm that considers 
 
 #### Overview 
 
-<img title="Overview" align="left" width="200px" src="assets/images/overview_app.jpeg">
+<img title="Overview" align="left" width="200px" src="assets/images/overview_app.png">
 
 
 'CraveIT' presents a simple overview page where you can search for the dish you want to try, just type the dish in the search bar and the app will suggest the full name of the dish.
@@ -48,7 +48,7 @@ Before starting the search you can set a series of filters. In the 'Filters' sec
 
 #### Ranking  
 
-<img title="Ranking" align="right" width="200px" src="assets/images/ranking.jpeg">
+<img title="Ranking" align="right" width="200px" src="assets/images/ranking.png">
 
 Once you have chosen your desired dish and filters, you land on a new page that shows you the top ten restaurants ordered in the ranking calculated by the algorithm.
 The restaurants are sorted in descending order, with a minimum score of 1 and a maximum score of 10.
@@ -59,7 +59,7 @@ For more comprehensive information on the restaurant, simply click on the restau
 
 #### Restaurant details 
 
-<img title="Ranking" align="left" width="200px" src="assets/images/restaurant_detail.jpeg">
+<img title="Ranking" align="left" width="200px" src="assets/images/restaurant_detail.png">
 
 The restaurant detail page provides an overview of the restaurant's offerings. It includes a brief description of the restaurant and aggregate information, such as the number of users who have rated the restaurant as excellent. 
 In addition, nearby places of interest can be displayed on the map.
@@ -70,7 +70,6 @@ This feature allows you to organize not only a lunch or dinner but also a small 
 
 #### Navigation 
 
-<img title="Ranking" width="500px" alt="Alt text" src="assets/images/navigazione.jpeg">
 
 After you set the filters, click on the button for your chosen dish or select the dish from the search bar. 
 Once the selection is made, you will be directed to the ranking page for that dish. Here, you can select a restaurant, view its details, or go back and start a new search.
