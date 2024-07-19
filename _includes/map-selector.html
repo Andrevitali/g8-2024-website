@@ -8,9 +8,13 @@
     <div class="row pt-2">
         <div class="col-12">
             {% for chart in {{dataset}} %}
-            <button class="btn btn-primary chart-button my-1" src="{{site.baseurl}}/{{ chart.url }}" data-name="{{chart.name}}">
-                <span class="question-number">{{ chart.id }}</span> <span class="question">{{ chart.name }}</span>
-            </button>
+
+            <div class="mb-2">
+                <button class="btn btn-primary chart-button" src="{{site.baseurl}}/{{ chart.url }}" data-name="{{chart.name}}">
+                <span class="question-number">{{ chart.id }}</span> <span class="question">{{ chart.name }}</span></button>
+                </div>
+
+
 
             {% endfor %}
         </div>

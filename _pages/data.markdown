@@ -16,6 +16,7 @@ vega: true
 # **Our data**
 #### A description of our dataset
 
+
 Altair è una libreria di visualizzazione dei dati per Python, basata su Vega e Vega-Lite. Ciò significa che Altair genera specifiche Vega-Lite, che a loro volta vengono convertite in specifiche Vega e quindi in grafici visualizzabili in un browser web. Per incorporare un grafico Altair in una pagina web, è necessario convertire la specifica Vega-Lite in un oggetto JSON e salvarlo in un file `.json`.
 
 La procedura in `altair` per salvare la specifica Vega-Lite in un file `.json` è la seguente:
