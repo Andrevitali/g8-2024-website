@@ -6,9 +6,9 @@
   url:  "assets/images/why-it-matters.jpeg"
   description: "What Prompted us"
   path: "what-prompted-us"
-- name: Our data
+- name: How it works
   url:  "assets/images/ourdata.jpeg"
-  description: "Food as a proxy of our lives"
+  description: "The magic behind"
   path: "data"
 - name: Future plans
   url:  "assets/images/FuturePlans.jpeg"
