@@ -19,7 +19,7 @@ vega: true
 From the late 1990s to the early 2000s, the emergence of successful social networks and review platforms marked the beginning of a new way of communicating, informing, and marketing.
 
 <br>
-The restaurant industry is also greatly marked by this phenomenon. We interviewed food critic Carlo Passera, editor-in-chief of Identità Golose, who in this regard says : “This whole phenomenon of online reviews is part of a larger phenomenon that is what can be called disintermediation. This phenomenon touches all of contemporary society. With e-commerce the intermediary skips the middleman and the customer is directly in contact with the producer.”
+The restaurant industry is also greatly marked by this phenomenon. We interviewed food critic Carlo Passera, editor-in-chief of Identità Golose, who in this regard says : “The phenomenon of online reviews is part of a larger phenomenon that  can be called disintermediation. This phenomenon touches all of contemporary society. With e-commerce the intermediary skips the middleman and the customer is directly in contact with the producer.”
 
 <br>
 In this context, what role do industry experts play?
