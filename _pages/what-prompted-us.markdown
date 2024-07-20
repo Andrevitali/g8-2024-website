@@ -20,9 +20,16 @@ From the late 1990s to the early 2000s, the emergence of successful social netwo
 
 <br>
 The restaurant industry is also greatly marked by this phenomenon. We interviewed food critic Carlo Passera, editor-in-chief of Identità Golose, who in this regard says : “The phenomenon of online reviews is part of a larger phenomenon that  can be called disintermediation. This phenomenon touches all of contemporary society. With e-commerce the intermediary skips the middleman and the customer is directly in contact with the producer.”
-
 <br>
-In this context, what role do industry experts play?
+How has this new market dynamic affected the restaurant industry?
+“Communication has changed a lot, now the trend is to have signatures, that are representative dishes that can describe the brand of the restaurant.
+On social, a very direct narrative around a specific type of dish works a lot, more so than a generalist restaurant that can tell its story simply as a restaurant.” 
+<br>
+The idea of CraveIT is to develop a platform that goes to recommend the best restaurants where to find a particular typical Italian dish. Do you think it makes sense to consider only feedback from Italian users?
+“It tends to, for an almost anthropological question. 
+For example, North American customers demand sweeter flavors. the Far East has a different relationship with salt than ours. There are really characteristics that develop in one's local gastronomic tradition, which make the perception of tastes also due to the area where the person comes from. So let's say that for Italian cuisine at least I would tend to trust a European user more, or even better from the Mediterranean area.”
+<br>
+In this new context, what role do industry experts play?
 “Too much information sometimes equals no information. Before, users referred to food guides because they did not know who to ask to figure out which restaurant to go to. Now it's the opposite, guides serve to discern, with some authority, among the too much information available online.”
 
 <iframe src="{{site.baseurl}}/assets/charts/mappa_ristoranti.html" width="{{include.width  | default: '100%'  }}" height="{{include.height   | default: '400px'  }}" ></iframe>
