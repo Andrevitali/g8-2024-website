@@ -102,6 +102,10 @@ SkyTG24:
 Puntarella Rossa:
 <br>
 <https://www.puntarellarossa.it/2016/04/18/la-migliore-carbonara-di-roma/#:~:text=TRASTEVERE-,Eggs,prime%2C%20ma%20anche%20le%20varianti.>
+<br>
+Gambero Rosso:
+<br>
+https://www.gamberorosso.it/notizie/classifiche/la-migliore-carbonara-di-roma-la-classifica-dopo-21-test-in-4-giorni/
 
 <br>
 
