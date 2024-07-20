@@ -14,8 +14,10 @@ vega: true
 
 
 # **Why it matters**
-#### A description of our dataset and what promped us
 
+<hr>
+
+## What promped us
 From the late 1990s to the early 2000s, the emergence of successful social networks and review platforms marked the beginning of a new way of communicating, informing, and marketing.
 
 <br>
@@ -36,34 +38,36 @@ In this new context, what role do industry experts play? We decided to use exper
 <br>
 “Too much information sometimes equals no information. Before, users referred to food guides because they did not know who to ask to figure out which restaurant to go to. Now it's the opposite, guides serve to discern, with some authority, among the too much information available online.”
 
+<hr>
+
+## Our data
+In order to develop CraveIT we focus our interest on Rome and gather the information about traditional roman restaurants. In the map below it's possibile to explore all the restaurants we analyzed.
+ <br>
 <iframe src="{{site.baseurl}}/assets/charts/mappa_ristoranti.html" width="{{include.width  | default: '100%'  }}" height="{{include.height   | default: '400px'  }}" ></iframe>
-
-<br>
-
-Descrizione veloce del dataset + introduzione al fatto che qui presentiamo i nostri dati e perché CraveIT è importante: dati descrivono fenomeni culturali
 
 <br>
 
 
 ### Number of reviews by month
+To make the results reliable, we decided to consider only relatively recent information; in fact, the reviews analyzed start from 2019.
+As noted, the data perfectly describe the covid phenomenon, and the various closures and reopenings had in Italy during 2020 and 2021. 
+<br>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_Total.json" style="width:100%"></vegachart>
-
 <br>
-
-Andamento temporale reviews 
-calo covid
-ancora non si è ripreso
-stagionalità  (minimi mesi invernali, massimo estivi)
+From what has been analyzed, the number of reviews has not yet returned to the pre-covid periods, but the seasonality of the time series is evident: the highest peak periods are in summer, the lowest peak periods in winter. It must be remembered that Rome is a tourist city, so it is logical to expect such behavior.
 <br>
-
 
 ### Reviews by language
-
+As mentioned before our aim was to discrover the best restaurant for a particular italian dish, so we chose to focus on italin reviews only, constituting more than 50% of the total reviews.
+<br>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_N_ItalianvsNonItalian.json" style="width:100%"></vegachart>
+<br>
+In fact, among the non-italian reviews there are a lot of different languages,therefore also different cultures. 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_NForeignReviewsbyLanguage.json" style="width:100%"></vegachart>
 
 <br>
-La maggior parte italiani, distribuzione di non italiani
+It makes sense to expect not only different taste, associated with different cultures, but also different behavior.
+In particular, we can assume that people from wealthier countries frequent more expensive locales. Conversely, countries with lower average incomes will frequent cheaper restaurants.
 
 <br>
 
