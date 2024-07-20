@@ -148,7 +148,15 @@ hr.my-3 {
 }
 
 #homepage-cards .card {
-  background-color: #FFCC67; /* Warm yellow background */
+  background-color: #FFCC67;
+}
+
+#homepage-cards .card a {
+  color: black;
+}
+
+article#maincontent {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=custom.css.map */
