@@ -21,10 +21,7 @@ vega: true
  <br>
 CraveIT does something that no other app does: a restaurant ranking that is specifically based on the quality of a particular dish; this, of course, is a result we cherish. On the other hand it poses a problem: it’s an unsupervised process for the validation of which we have no obvious label. We don’t know what is the correct result that our ranking is supposed to return.
 <br>
-
-<hr>
-
-### Results and validation
+<br>
 In order to validate our results we picked the carbonara, which is by far the most popular of the dishes we selected, and looked for newspapers and food blogs articles that had compiled a specific list of “The best places to eat a carbonara in Rome”.
 <br>
 <br>
@@ -59,7 +56,8 @@ Both [**La Cucina Italiana**](https://www.lacucinaitaliana.it/news/in-primo-pian
 <br>
 Moreover  [**La Puntarella Rossa**](h https://www.puntarellarossa.it/2019/10/29le-migliori-gricie-di-roma-sfida-a-sette-con-prezzi-e-classifica/) mentions <i>Osteria Bonelli</i> and <i>da Enzo al 29</i> for the best gricia in Rome.
 <br>
-Lastly, for pajata and baccalà CraveIT reccomands <i>Dar Filettaro</i> and <i>Sora Lella</i> respectively, two important realities in the panorama of traditional Roman cuisine.
+Lastly, for pajata and baccalà CraveIT reccomands <i>Dar Filettaro</i> and <i>Sora Lella</i> respectively, two important realities in the panorama of traditional Roman cuisine, see also [**La Puntarella Rossa**](https://www.puntarellarossa.it/2017/11/24/dove-mangiare-il-baccala-a-roma/).
+
 <br>
 <br>
 A peculiarly encouraging result is that the top 2 places among CraveIT’s “carciofi alla giudia” results are restaurants located at the Jewish ghetto, an area where no restaurants recommended for other dishes appear. The dish is classic in Roman Jewish tradition but is widely cooked and eaten in any restaurant offering Roman cuisine.
