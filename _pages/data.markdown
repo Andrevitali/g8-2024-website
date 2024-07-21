@@ -25,7 +25,7 @@ CraveIT does something that no other app does: a restaurant ranking that is spec
 <hr>
 
 ### Results and validation
-We therefore picked the carbonara, which is by far the most popular of the dishes we selected, and looked for newspapers and food blogs articles that had compiled a specific list of “The best places to eat a carbonara in Rome”.
+In order to validate our results we picked the carbonara, which is by far the most popular of the dishes we selected, and looked for newspapers and food blogs articles that had compiled a specific list of “The best places to eat a carbonara in Rome”.
 <br>
 <br>
 **Il Messaggero**: [Il Messaggero - Carbonara: le dieci migliori di Roma](https://www.ilmessaggero.it/ristoranti/carbonara_le_dieci_migliori_di_roma_da_roscioli_pipero_al_rex-186966.html)
