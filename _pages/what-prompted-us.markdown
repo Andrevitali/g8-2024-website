@@ -56,7 +56,7 @@ The map below shows the location and some information about the restaurants that
 To improve the freshness and therefore the reliability of our results, we have opted to restrict our analysis to reviews written from January 2019 onward.
 <br>
 <br>
-It is often said that big data tells the story of our social lives, capturing societal trends and behaviors.
+It is often said that big data are a proxy of our social lives, capturing societal trends and behaviors.
 The chart below, which illustrates the number of reviews by month, 
 makes no exeption and several interesting insights can be observed:
 - There is a clear seasonal pattern in the number of reviews, with significantly fewer reviews posted during the winter months.  
@@ -69,22 +69,24 @@ followed by fluctuations that correspond to subsequent waves of the pandemic and
 <br>
 
 ### Reviews by language
-As mentioned before our aim was to discrover the best restaurant for a particular italian dish, so we chose to focus on italin reviews only, constituting more than 50% of the total reviews.
+Although CraveIT's ranking is based exclusively on Italian reviews, the original dataset includes both Italian and non-Italian reviews in a roughly 60:40 proportion.
 <br>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_N_ItalianvsNonItalian.json" style="width:100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1707Bar_N_ItalianvsNonItalian.json" style="width:100%"></vegachart>
 <br>
-In fact, among the non-italian reviews there are a lot of different languages,therefore also different cultures. 
+Among the non-Italian reviews there are many different languages, and consequently cultures. 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_NForeignReviewsbyLanguage.json" style="width:100%"></vegachart>
 
 <br>
-It makes sense to expect not only different taste, associated with different cultures, but also different behavior.
-In particular, we can assume that people from wealthier countries frequent more expensive locales. Conversely, countries with lower average incomes will frequent cheaper restaurants.
-<br>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_Ratings_byLanguage.json" style="width:100%"></vegachart>
-<br>
-From the chart above we can observe how people from different cultures react to italian cusine. In addition, confirming what we expect it seems that people from wealthier countries prefer restaurants with a higher price range.
+Given the rich variety of languages and cultures in our dataset, we tried to extract some interesting insights on both tastes and behaviors. 
+For instance, we expected people from high-income countries to go to more expensive restaurants and customers from less wealthy countries to cheaper ones. 
+The data gathered and visualized in the chart below seem to confirm this expectation.
 <br>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1707Bar_Price_byLanguage.json" style="width: 100%"></vegachart>
+<br>
+It is also worth noting that there is a significant difference in how different cultures rates Italian restaurant and this is another factor that might support our decision to only include Italian reviews to calculate our ranking.
+<br>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_Ratings_byLanguage.json" style="width:100%"></vegachart>
+
 <br>
 Finally, restaurants with lower price ranges receive higher ratings than more expensive restaurants. We can infer from this that those who are willing to spend more will be more critical , we might also assume that positive reviews come from people of similar culture to those in Italy.
 <br>
