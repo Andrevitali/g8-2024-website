@@ -45,19 +45,21 @@ Since customers might find it difficult to negotiate the overwhelmingly vast amo
 <hr>
 
 ## Our data
-In order to develop CraveIT we have focused our interest on Rome and gathered information about traditional Roman restaurants. In the map below it is possible to visualize and explore all the restaurants we analyzed.
+To develop the proof of concept of CraveIT, we have decided to focus on Rome and collected information on traditional Roman restaurants. 
+The map below shows the location and some information about the restaurants that included in our dataset.
 <br>
 <iframe src="{{site.baseurl}}/assets/charts/mappa_ristoranti.html" width="{{include.width  | default: '100%'  }}" height="{{include.height   | default: '400px'  }}" ></iframe>
 <br>
 
 
 ### Number of reviews by month
-To make the results reliable, we decided to consider only relatively recent information; in fact, the reviews analyzed start from 2019.
-As noted, the data perfectly describe the covid phenomenon, and the various closures and reopenings had in Italy during 2020 and 2021. 
+To improve the freshness and therefore the reliability of our results, we have opted to restrict our analysis to reviews written from January 2019 onward.
+From the chart below, which shows the number of reviews by month, two expected, but interesting insights can be gathered:
+- The data appears to reflect the impact of the COVID-19 pandemic, with trends mirroring the various lockdowns that occurred in Italy between 2020 and 2021.
+- A seasonality in the number of reviews is evident, with significantly fewer reviews posted during the winter months."
 <br>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_Total.json" style="width:100%"></vegachart>
 <br>
-From what has been analyzed, the number of reviews has not yet returned to the pre-covid periods, but the seasonality of the time series is evident: the highest peak periods are in summer, the lowest peak periods in winter. It must be remembered that Rome is a tourist city, so it is logical to expect such behavior.
 <br>
 
 ### Reviews by language
