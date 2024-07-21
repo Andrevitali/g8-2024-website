@@ -204,7 +204,6 @@ Finally, we included the expert’s opinions. We combined all of these parameter
 
 
 ### Validation
-Simply sorting the restaurants by descending CraveIT score, we got our top 10s back.
 <br>
 CraveIT does something that no other app does: a restaurant ranking that is specifically based on the quality of a particular dish; this, of course, is a result we cherish. On the other hand it poses a problem: it’s an unsupervised process for the validation of which we have no obvious label. We don’t know what is the correct result that our ranking is supposed to return.
 <br>
@@ -228,13 +227,25 @@ Puntarella Rossa:
 <br>
 Gambero Rosso:
 <br>
-https://www.gamberorosso.it/notizie/classifiche/la-migliore-carbonara-di-roma-la-classifica-dopo-21-test-in-4-giorni/
+<https://www.gamberorosso.it/notizie/classifiche/la-migliore-carbonara-di-roma-la-classifica-dopo-21-test-in-4-giorni/>
 
 <br>
 
-Three restaurants consistently appear in the top 5s of the articles, Roscioli, Luciano and Eggs: all of them are in CraveIT’s top 5s.
+Three restaurants consistently appear in the top 5s of the articles, Roscioli, Luciano and Eggs: although we did not use these items to structure our ranking, all of them are in CraveIT’s top 5s.
+<br>
 As for the other restaurants appearing in CraveIT’s carbonara top 10s, they are all extremely popular places, variously mentioned on social media and YouTube videos (e.g. La Fraschetta, Tonnarello, Osteria da Fortunata).
 <br>
-The online articles are not as detailed about other, less popular, dishes; however, the results are definitely promising: CraveIT’s results are extremely diverse as they vary deeply based on the selected dish and they seem overall more than sensible: CraveIT top results for cacio e pepe are Felice a Testaccio and Flavio al Velavevodetto, both places variously mentioned in newspapers and food blog articles specifically addressing that particular dish; the same goes for saltimbocca (Armando al Pantheon), coda alla vaccinara (SantoPalato, Checchino dal 1887), trippa (Osteria La Sol Fa), abbacchio (Matricianella), supplì (Supplizio, 180g Pizzeria Romana, Trapizzino Trilussa), pajata (Trattoria Pennestri, Sora Lella), gricia (Osteria Bonelli, da Enzo al 29), baccalà (Dar Filettaro, Grappolo d’oro), puntarelle (da Gino al Parlamento); a peculiarly encouraging result is that the top 2 places among CraveIT’s “carciofi alla giudia” results are restaurants located at the Jewish ghetto, an area where no restaurants recommended for other dishes appear.
+CraveIT is giving reliable results, but not obvious: top restaurants for dish have a good reputation, but they're not on top of other app rankings.
+<br>
+<br>
+The online articles are not as detailed about other, less popular, dishes; however, the results are definitely promising: CraveIT’s results are extremely diverse as they vary deeply based on the selected dish and they seem overall more than sensible: among CraveIT top results for cacio e pepe there are Felice a Testaccio and Flavio al Velavevodetto, both places variously mentioned in newspapers and food blog articles specifically addressing that particular dish.
+<br>
+Puntarella Rossa:
+<br>
+<https://www.puntarellarossa.it/2019/01/10/le-migliori-cacio-e-pepe-di-roma-le-sette-imperdibili-con-ingredienti-e-prezzi/>
+<br>
+the same goes for saltimbocca (Armando al Pantheon), coda alla vaccinara (SantoPalato, Checchino dal 1887), trippa (Osteria La Sol Fa), abbacchio (Matricianella), supplì (Supplizio, 180g Pizzeria Romana, Trapizzino Trilussa), pajata (Trattoria Pennestri, Sora Lella), gricia (Osteria Bonelli, da Enzo al 29), baccalà (Dar Filettaro, Grappolo d’oro), puntarelle (da Gino al Parlamento).
+<br>
+A peculiarly encouraging result is that the top 2 places among CraveIT’s “carciofi alla giudia” results are restaurants located at the Jewish ghetto, an area where no restaurants recommended for other dishes appear. The dish is classic in Roman Jewish tradition but is widely cooked and eaten in any restaurant offering Roman cuisine.
 <br>
 What’s more important, and somewhat surprising, about these results is that virtually none of the above-mentioned restaurants are highly rated on the generic online sources, proving that CraveIT’s sentiment analysis and ranking algorithm are the ones doing most of the work. 
