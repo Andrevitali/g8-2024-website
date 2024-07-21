@@ -14,29 +14,31 @@ vega: true
 
 
 # **Why it matters**
+#### Our data and the reasons behind our project
 
-<hr>
-
-## What promped us
-From the late 1990s to the early 2000s, the emergence of successful social networks and review platforms marked the beginning of a new way of communicating, informing, and marketing.
+Between the late 1990s and the early 2000s, the emergence of successful social networks and review platforms marked the beginning of a new era in communication, information sharing, and marketing.
 
 <br>
-The restaurant industry is also greatly marked by this phenomenon. We interviewed food critic **Carlo Passera**, editor-in-chief of [Identità Golose](https://www.identitagolose.it/)., who in this regard says:
+The restaurant industry has been no exception and has been hugely impacted by this phenomenon as well. 
+To gain more insights on this, we have interviewed food critic **Carlo Passera**, editor-in-chief of [Identità Golose](https://www.identitagolose.it/), who observed:
+<div style="background-color: #f9f9f9; padding: 10px; margin: 10px 0;">
+    “The phenomenon of online reviews is part of a larger trend known as <strong>disintermediation</strong>. This trend seems to affect all aspects of contemporary society. In e-commerce, for instance, disintermediation cuts out the middleman and allows customers to communicate directly with producers.”
+</div>
 <br>
- “The phenomenon of online reviews is part of a larger phenomenon that  can be called **disintermediation**. This phenomenon touches all of contemporary society. With e-commerce the intermediary skips the middleman and the customer is directly in contact with the producer.”
+<i>How have these new dynamics affected the restaurant industry?</i> 
 <br>
-How has this new market dynamic affected the restaurant industry?
+“Communication has changed massively. Now the trend is to have signature dishes that are representative of a restaurant and can embody its **brand**. These unique dishes become central to the restaurant's identity, making it easier to stand out in a crowded market.
+Using the visual and the storytelling affordances of social media to create a compelling narratives around specific dishes can do wonders to generate positive buzz around a restaurant and therefore attract attention from customers. Something that non-specialty restaurants would struggle to match."
 <br>
-“Communication has changed a lot, now the trend is to have signatures, that are representative dishes that can describe the **brand** of the restaurant.
-On social media, a very direct narrative around a specific type of dish works a lot, more so than a generalist restaurant that can tell its story simply as a restaurant.” 
 <br>
-The idea of CraveIT is to develop a platform that goes to recommend the best restaurants where to find a particular typical Italian dish. Do you think it makes sense to consider only feedback from Italian users?
+<i>Since the idea behind CraveIT is to develop a platform that recommends the best restaurants where a specific Italian dish can be eaten, do you believe it makes sense to consider only reviews written by Italian users?</i>
 <br>
-“It tends to, for an almost anthropological question. For example, North American customers demand sweeter flavors. the Far East has a different relationship with salt than ours. There are really characteristics that develop in one's local gastronomic tradition, which make the perception of tastes also due to the area where the person comes from. So let's say that for Italian cuisine at least I would tend to trust a European user more, or even better from the Mediterranean area.”
+“I would say so, for cultural and anthropological reasons. For instance, North American customers tend to demand sweeter flavors, whereas those from the Far East have a significantly different relationship with salt than us. I think that there are factors rooted in one's national gastronomic tradition that influence taste perception based on the person's region of origin. Therefore, for Italian cuisine, I would tend to trust a European user more, or even better, someone from the Mediterranean area.”
 <br>
-In this new context, what role do industry experts play? We decided to use expert judgment for the construction of the CraveIT ranking.
 <br>
-“Too much information sometimes equals no information. Before, users referred to food guides because they did not know who to ask to figure out which restaurant to go to. Now it's the opposite, guides serve to discern, with some authority, among the too much information available online.”
+<i>In the current restaurant environment, what is the role played by industry experts? Do you think including experts' opinions in CraveIT's ranking is a good idea?</i>
+<br>
+“In the past, customers used to depend on food guides as the only way to decide on which restaurant to go to. Nowadays, we seem to have the opposite issue: customers have too much information, which at times it's like having no information. Since customers might find it difficult to negotiate the overwhelmingly vast amount of online information at their disposal, guides can serve to pinpoint the best options with some authority. Therefore, I reckon that including experts' opinion in CraveIT's score would make its ranking more robust and reliable”
 
 <hr>
 

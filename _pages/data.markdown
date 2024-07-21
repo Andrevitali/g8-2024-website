@@ -32,10 +32,110 @@ After the cleaning and filtering process, we were left with approximately 80% of
 For this purpose, we chose to employ ElasticSearch. We set up a batching system to split up our corpus into more manageable bundles, indexed all the reviews’ bodies, together with their title if present, and paired them with a unique identifier.
 After the indexing process, we built our queries; for each of our dishes, we asked the search engine to look for matches in either the body or the title of the reviews. These queries used two important ElasticSearch’s features: fuzziness and highlight. Fuzziness  allowed us to retrieve most of the reasonable variations of the search terms, especially plurals and typos; and there sure were many:
 
-<br>
-<code>
-amatriciana_fuzz2 = {'amatriciana': 15034, 'amatriciano': 69, "l'amatriciana": 271, 'l’amatriciana': 162, 'matriciana': 209, 'amatriciane': 372, 'amtatriciana': 2, 'amatricia': 1, 'amaticiana': 4, 'amatricina': 5, 'amitriciana': 11, 'amatriciata': 2, 'matriciano': 13, 'amatrciana': 5, 'matriciane': 5, 'l’': 11, 'amatricciana': 15, 'amatritiana': 1, 'amatrisciana': 2, 'amatriciani': 22, 'lamatriciana': 7, 'amatraciana': 5, 'amatriciama': 3, 'a’matriciana': 2, 'amayriciana': 1, 'ammatriciana': 10, 'amatriciqna': 1, 'amarticiana': 3, '1amatriciana': 1,  'amatoriciana': 2, 'matricina': 1, 'amattriciana': 1, "a'matriciana": 1, 'amantriciana': 2, 'amatriziana': 1, 'amatricisna': 1, 'amatticiana': 2, 'amatricaina': 1, 'umatriciana': 1, 'amartriciana': 2, 'amatriviana': 1, 'amatrigiana': 1, 'amatruciana': 2, 'amateiciana': 1, 'amamtriciana': 1, '1matriciana': 1, 'amatriciara': 1, 'anatriciana': 3, 'amatrichana': 1, 'amariciana': 2, 'amatritciana': 1, 'ametriciana': 1, 'amatrichiana': 1, 'amatrriciana': 1,  'amatricianna': 1, 'amatreciana': 2, 'amatriaciana': 1, 'amatricinana': 2, 'amstriciana': 1, 'amatrician': 1, 'amtriciana': 1, 'amatricianan': 1, 'maticiana': 1, 'amatriciaba': 1}
-</code>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 50%;
+            padding: 10px;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .soft-pink {
+            color: #FF69B4; /* Soft pink color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <pre><code class="soft-pink">{
+    "amatriciana": 15034,
+    "amatriciano": 69,
+    "l'amatriciana": 271,
+    "l’amatriciana": 162,
+    "matriciana": 209,
+    "amatriciane": 372,
+    "amtatriciana": 2,
+    "amatricia": 1,
+    "amaticiana": 4,
+    "amatricina": 5,
+    "amitriciana": 11,
+    "amatriciata": 2,
+    "matriciano": 13,
+    "amatrciana": 5,
+    "matriciane": 5,
+    "amatricciana": 15,
+    "amatritiana": 1,
+    "amatrisciana": 2,
+    "amatriciani": 22,
+    "lamatriciana": 7,
+    "amatraciana": 5,
+    "amatriciama": 3,
+    "a’matriciana": 2,
+    "amayriciana": 1,
+    "ammatriciana": 10,
+    "amatriciqna": 1,
+    "amarticiana": 3,
+    "1amatriciana": 1,
+    "amatoriciana": 2,
+    "amattriciana": 1,
+    "a'matriciana": 1,
+}</code></pre>
+        </div>
+        <div class="column">
+            <pre><code class="soft-pink">{
+    "amantriciana": 2,
+    "amatriziana": 1,
+    "amatricisna": 1,
+    "amatticiana": 2,
+    "amatricaina": 1,
+    "umatriciana": 1,
+    "amartriciana": 2,
+    "amatriviana": 1,
+    "amatrigiana": 1,
+    "amatruciana": 2,
+    "amateiciana": 1,
+    "amamtriciana": 1,
+    "1matriciana": 1,
+    "amatriciara": 1,
+    "anatriciana": 3,
+    "amatrichana": 1,
+    "amariciana": 2,
+    "amatritciana": 1,
+    "ametriciana": 1,
+    "amatrichiana": 1,
+    "amatrriciana": 1,
+    "amatricianna": 1,
+    "amatreciana": 2,
+    "amatriaciana": 1,
+    "amatricinana": 2,
+    "amstriciana": 1,
+    "amatrician": 1,
+    "amtriciana": 1,
+    "amatricianan": 1,
+    "maticiana": 1,
+    "amatriciaba": 1
+}</code></pre>
+        </div>
+    </div>
+</body>
+</html>
+
+
 
  
 
@@ -55,11 +155,34 @@ As mentioned, CraveIT is dish-specific, so we wanted the models to associate a s
 We tested BERT for this task, we used a multilingual model pre-trained on product reviews, that would return a score from 0 to 5, where 0 meant a negative sentiment, 5 a positive one, and 3 a neutral one. Since we could not direct BERT into giving us the sentiment associated with a particular item (our selected dish), we couldn’t feed it the entire review, as users often mention multiple dishes, and express opinions on the restaurant's general atmosphere, its value and service. Therefore, we had to feed it the already tokenized sentences returned by ES. Evaluating the results on a sample of reviews, we found that BERT’s accuracy was surprisingly high, and that the model was able to pick up on somewhat subtle differences. For instance:
 <br>
 
-<code>
-"Ho ordinato una carbonara pensando di mangiare quella migliore di Roma, invece hanno usato la panna!"
-<br>
-Tensor(1)
-</code>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            padding: 10px;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            color: #FF69B4; /* Soft pink color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <pre>"Ho ordinato una carbonara pensando di mangiare quella migliore di Roma, invece hanno usato la panna!"
+Tensor(1)</pre>
+    </div>
+</body>
+</html>
+
 
 BERT didn’t get fooled by the mention of “quella migliore di Roma”, and correctly assigned a low sentiment score to the review. However, BERT was of course failing on reviews that were mentioning multiple dishes in the highlighted sentence, conflating opinions; more importantly, it could not succeed on reviews that were mentioning our target dish in a sentence, but expressing the related sentiment in another, as it was only reading parts of them.
 
