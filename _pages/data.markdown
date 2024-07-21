@@ -25,8 +25,6 @@ CraveIT does something that no other app does: a restaurant ranking that is spec
 <hr>
 
 ### Results and validation
-CraveIT does something that no other app does: a restaurant ranking that is specifically based on the quality of a particular dish; this, of course, is a result we cherish. On the other hand it poses a problem: it’s an unsupervised process for the validation of which we have no obvious label. We don’t know what is the correct result that our ranking is supposed to return.
-<br>
 We therefore picked the carbonara, which is by far the most popular of the dishes we selected, and looked for newspapers and food blogs articles that had compiled a specific list of “The best places to eat a carbonara in Rome”.
 <br>
 <br>
@@ -54,17 +52,16 @@ The online articles are not as detailed about other, less popular, dishes; howev
 <br>
 Both places variously mentioned in newspapers and food blog articles specifically addressing that particular dish.
 <br>
-The same goes for saltimbocca, for instance [here](https://www.corriere.it/cook/news/cards/roma-migliori-trattorie-secondo-guida-michelin/migliori-trattorie-roma-armando-pantheon.shtml) **Il Corriere della Sera** mentions Armando al Pantheon as one of the best restaurant in Rome, in particular for saltimbocca.<br>
+The same goes for saltimbocca, for instance [**Il Corriere della Sera**](https://www.corriere.it/cook/news/cards/roma-migliori-trattorie-secondo-guida-michelin/migliori-trattorie-roma-armando-pantheon.shtml)  mentions Armando al Pantheon as one of the best restaurant in Rome, in particular for saltimbocca.<br>
 The guide [**Scatti di Gusto**](https://www.scattidigusto.it/ristoranti/dove-mangiare-la-coda-alla-vaccinara-a-roma-tradizione-e-trattorie/) suggests, amog others, SantoPalato, Checchino dal 1887, Lo Scopettaro  to try coda alla vaccinara. They are in the CraveIT top 10s.
 <br>
 trippa (Osteria La Sol Fa), abbacchio (Matricianella),
-Both [**La Cucina Italiana**](https://www.lacucinaitaliana.it/news/in-primo-piano/dove-mangiare-i-suppli-a-roma/) and [**Il GamberoRosso**](https://www.gamberorosso.it/notizie/classifiche/dove-mangiare-suppli-a-roma-i-migliori-della-capitale/) agree inrecommending Supplizio, Trapizzino, Sbanco or L'Elementare as best restaurants where try supplì in Rome.
+Both [**La Cucina Italiana**](https://www.lacucinaitaliana.it/news/in-primo-piano/dove-mangiare-i-suppli-a-roma/) and [**Il GamberoRosso**](https://www.gamberorosso.it/notizie/classifiche/dove-mangiare-suppli-a-roma-i-migliori-della-capitale/) agree in recommending Supplizio, Trapizzino, Sbanco or L'Elementare as best restaurants where try supplì in Rome.
 <br>
-Moreover  [**La Puntarella Rossa**](h https://www.puntarellarossa.it/2019/10/29le-migliori-gricie-di-roma-sfida-a-sette-con-prezzi-e-classifica/) mentions Osteria Bonelli and da Enzo al 29 for the best gricia inRome.
+Moreover  [**La Puntarella Rossa**](h https://www.puntarellarossa.it/2019/10/29le-migliori-gricie-di-roma-sfida-a-sette-con-prezzi-e-classifica/) mentions Osteria Bonelli and da Enzo al 29 for the best gricia in Rome.
 <br>
-Lastly, for pajata and baccalà CraveIT reccomands Dar Filettaro and Sora Lella respectively, two important realities in the panorama oftraditional Roman cuisine
+Lastly, for pajata and baccalà CraveIT reccomands Dar Filettaro and Sora Lella respectively, two important realities in the panorama of traditional Roman cuisine.
 <br>
-puntarelle (da Gino al Parlamento).
 <br>
 A peculiarly encouraging result is that the top 2 places among CraveIT’s “carciofi alla giudia” results are restaurants located at the Jewish ghetto, an area where no restaurants recommended for other dishes appear. The dish is classic in Roman Jewish tradition but is widely cooked and eaten in any restaurant offering Roman cuisine.
 <br>
@@ -73,6 +70,11 @@ What’s more important, and somewhat surprising, about these results is that vi
 <br>
 CraveIT is giving reliable results, but not obvious: top restaurants for dish have a good reputation, but they're not on top of other app rankings.
 <br>
+<br>
+So, if you are still not convinced about CraveIT all you have to do is try it out for yourself
+<br>
+
+# **WHAT ARE YOU CRAVING?**
 
 <hr>
 
