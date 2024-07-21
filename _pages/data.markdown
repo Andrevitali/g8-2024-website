@@ -29,26 +29,16 @@ CraveIT does something that no other app does: a restaurant ranking that is spec
 <br>
 We therefore picked the carbonara, which is by far the most popular of the dishes we selected, and looked for newspapers and food blogs articles that had compiled a specific list of “The best places to eat a carbonara in Rome”.
 <br>
-Il Messaggero:
 <br>
-<https://www.ilmessaggero.it/ristoranti/carbonara_le_dieci_migliori_di_roma_da_roscioli_pipero_al_rex-186966.html>
+**Il Messaggero**: [Il Messaggero - Carbonara: le dieci migliori di Roma](https://www.ilmessaggero.it/ristoranti/carbonara_le_dieci_migliori_di_roma_da_roscioli_pipero_al_rex-186966.html)
 <br>
-la Repubblica:
+**la Repubblica**:[la Repubblica - Carbonara day: mappa delle più buone secondo i lettori](https://roma.repubblica.it/cronaca/2021/04/06/news/carbonara_day_mappa_piu_buone_roma_secondo_lettori-295264786/ )
 <br>
-<https://roma.repubblica.it/cronaca/2021/04/06/news/carbonara_day_mappa_piu_buone_roma_secondo_lettori-295264786/ >
+**SkyTG24**:[SkyTG24 - Carbonara:I migliori ristoranti d'Italia](https://tg24.sky.it/lifestyle/2024/04/06/carbonara-migliori-ristoranti-italia )
 <br>
-SkyTG24:
+**Puntarella Rossa**:[Puntarella Rossa - la migliore carbonara di Roma](https://www.puntarellarossa.it/2016/04/18/la-migliore-carbonara-di-roma/#:~:text=TRASTEVERE-,Eggs,prime%2C%20ma%20anche%20le%20varianti. )
 <br>
-<https://tg24.sky.it/lifestyle/2024/04/06/carbonara-migliori-ristoranti-italia >
-<br>
-Puntarella Rossa:
-<br>
-<https://www.puntarellarossa.it/2016/04/18/la-migliore-carbonara-di-roma/#:~:text=TRASTEVERE-,Eggs,prime%2C%20ma%20anche%20le%20varianti.>
-<br>
-Gambero Rosso:
-<br>
-<https://www.gamberorosso.it/notizie/classifiche/la-migliore-carbonara-di-roma-la-classifica-dopo-21-test-in-4-giorni/>
-
+**Gambero Rosso**:[Gambero Rosso- la migliore carbonara di Roma](https://www.gamberorosso.it/notizie/classifiche/la-migliore-carbonara-di-roma-la-classifica-dopo-21-test-in-4-giorni/ )
 <br>
 
 Three restaurants consistently appear in the top 5s of the articles, Roscioli, Luciano and Eggs: although we did not use these items to structure our ranking, all of them are in CraveIT’s top 5s.
@@ -56,13 +46,25 @@ Three restaurants consistently appear in the top 5s of the articles, Roscioli, L
 As for the other restaurants appearing in CraveIT’s carbonara top 10s, they are all extremely popular places, variously mentioned on social media and YouTube videos (e.g. La Fraschetta, Tonnarello, Osteria da Fortunata).
 <br>
 <br>
-The online articles are not as detailed about other, less popular, dishes; however, the results are definitely promising: CraveIT’s results are extremely diverse as they vary deeply based on the selected dish and they seem overall more than sensible: among CraveIT top results for cacio e pepe there are Felice a Testaccio and Flavio al Velavevodetto, both places variously mentioned in newspapers and food blog articles specifically addressing that particular dish.
+The online articles are not as detailed about other, less popular, dishes; however, the results are definitely promising: CraveIT’s results are extremely diverse as they vary deeply based on the selected dish and they seem overall more than sensible: among CraveIT top results for cacio e pepe there are Felice a Testaccio and Flavio al Velavevodetto. 
 <br>
-Puntarella Rossa:
 <br>
-<https://www.puntarellarossa.it/2019/01/10/le-migliori-cacio-e-pepe-di-roma-le-sette-imperdibili-con-ingredienti-e-prezzi/>
+**Puntarella Rossa**:[Puntarella Rossa - le migliori cacio e pepe di Roma, le sette imperdibili](https://www.puntarellarossa.it/2019/01/10/le-migliori-cacio-e-pepe-di-roma-le-sette-imperdibili-con-ingredienti-e-prezzi/ )
 <br>
-the same goes for saltimbocca (Armando al Pantheon), coda alla vaccinara (SantoPalato, Checchino dal 1887), trippa (Osteria La Sol Fa), abbacchio (Matricianella), supplì (Supplizio, 180g Pizzeria Romana, Trapizzino Trilussa), pajata (Trattoria Pennestri, Sora Lella), gricia (Osteria Bonelli, da Enzo al 29), baccalà (Dar Filettaro, Grappolo d’oro), puntarelle (da Gino al Parlamento).
+<br>
+Both places variously mentioned in newspapers and food blog articles specifically addressing that particular dish.
+<br>
+The same goes for saltimbocca, for instance [here](https://www.corriere.it/cook/news/cards/roma-migliori-trattorie-secondo-guida-michelin/migliori-trattorie-roma-armando-pantheon.shtml) **Il Corriere della Sera** mentions Armando al Pantheon as one of the best restaurant in Rome, in particular for saltimbocca.<br>
+The guide [**Scatti di Gusto**](https://www.scattidigusto.it/ristoranti/dove-mangiare-la-coda-alla-vaccinara-a-roma-tradizione-e-trattorie/) suggests, amog others, SantoPalato, Checchino dal 1887, Lo Scopettaro  to try coda alla vaccinara. They are in the CraveIT top 10s.
+<br>
+trippa (Osteria La Sol Fa), abbacchio (Matricianella),
+Both [**La Cucina Italiana**](https://www.lacucinaitaliana.it/news/in-primo-piano/dove-mangiare-i-suppli-a-roma/) and [**Il GamberoRosso**](https://www.gamberorosso.it/notizie/classifiche/dove-mangiare-suppli-a-roma-i-migliori-della-capitale/) agree inrecommending Supplizio, Trapizzino, Sbanco or L'Elementare as best restaurants where try supplì in Rome.
+<br>
+Moreover  [**La Puntarella Rossa**](h https://www.puntarellarossa.it/2019/10/29le-migliori-gricie-di-roma-sfida-a-sette-con-prezzi-e-classifica/) mentions Osteria Bonelli and da Enzo al 29 for the best gricia inRome.
+<br>
+Lastly, for pajata and baccalà CraveIT reccomands Dar Filettaro and Sora Lella respectively, two important realities in the panorama oftraditional Roman cuisine
+<br>
+puntarelle (da Gino al Parlamento).
 <br>
 A peculiarly encouraging result is that the top 2 places among CraveIT’s “carciofi alla giudia” results are restaurants located at the Jewish ghetto, an area where no restaurants recommended for other dishes appear. The dish is classic in Roman Jewish tradition but is widely cooked and eaten in any restaurant offering Roman cuisine.
 <br>
