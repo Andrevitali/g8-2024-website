@@ -27,32 +27,27 @@ To gain more insights on this, we have interviewed food critic **Carlo Passera**
 <br>
 <i>How have these new dynamics affected the restaurant industry?</i> 
 <br>
-<div style="background-color: #f9f9f9; padding: 10px; margin: 10px 0;">
 “Communication has changed massively. Now the trend is to have signature dishes that are representative of a restaurant and can embody its **brand**. These unique dishes become central to the restaurant's identity, making it easier to stand out in a crowded market.
 Using the visual and the storytelling affordances of social media to create a compelling narratives around specific dishes can do wonders to generate positive buzz around a restaurant and therefore attract attention from customers. Something that non-specialty restaurants would struggle to match."
-</div>
 <br>
 <br>
 <i>Since the idea behind CraveIT is to develop a platform that recommends the best restaurants where a specific Italian dish can be eaten, do you believe it makes sense to consider only reviews written by Italian users?</i>
 <br>
-<div style="background-color: #f9f9f9; padding: 10px; margin: 10px 0;">
 “I would say so, for cultural and anthropological reasons. For instance, North American customers tend to demand sweeter flavors, whereas those from the Far East have a significantly different relationship with salt than us. I think that there are factors rooted in one's national gastronomic tradition that influence taste perception based on the person's region of origin. Therefore, for Italian cuisine, I would tend to trust a European user more, or even better, someone from the Mediterranean area.”
-</div>
 <br>
 <br>
-<i>In the current restaurant environment, what is the role played by industry experts? Do you think including experts' opinions in CraveIT's ranking is a good idea?</i>
+<i>In the current restaurant environment, what is the role played by industry experts? 
+Do you think including experts' opinions in CraveIT's ranking is a good idea?</i>
 <br>
-<div style="background-color: #f9f9f9; padding: 10px; margin: 10px 0;">
-“In the past, customers used to depend on food guides as the only way to decide on which restaurant to go to. Nowadays, we seem to have the opposite issue: customers have too much information, which at times it's like having no information. Since customers might find it difficult to negotiate the overwhelmingly vast amount of online information at their disposal, guides can serve to pinpoint the best options with some authority. Therefore, I reckon that including experts' opinion in CraveIT's score would make its ranking more robust and reliable”
-</div>
-
+“In the past, customers used to depend on food guides as the only way to decide on which restaurant to go to. 
+Nowadays, we seem to have the opposite issue: customers have too much information, which at times it's like having no information. 
+Since customers might find it difficult to negotiate the overwhelmingly vast amount of online information at their disposal, guides can serve to pinpoint the best options with some authority. Therefore, I reckon that including experts' opinion in CraveIT's score would make its ranking more robust and reliable”
 <hr>
 
 ## Our data
-In order to develop CraveIT we focus our interest on Rome and gather the information about traditional roman restaurants. In the map below it's possibile to explore all the restaurants we analyzed.
- <br>
+In order to develop CraveIT we have focused our interest on Rome and gathered information about traditional Roman restaurants. In the map below it is possible to visualize and explore all the restaurants we analyzed.
+<br>
 <iframe src="{{site.baseurl}}/assets/charts/mappa_ristoranti.html" width="{{include.width  | default: '100%'  }}" height="{{include.height   | default: '400px'  }}" ></iframe>
-
 <br>
 
 
