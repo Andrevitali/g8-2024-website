@@ -54,9 +54,15 @@ The map below shows the location and some information about the restaurants that
 
 ### Number of reviews by month
 To improve the freshness and therefore the reliability of our results, we have opted to restrict our analysis to reviews written from January 2019 onward.
-From the chart below, which shows the number of reviews by month, two expected, but interesting insights can be gathered:
-- The data appears to reflect the impact of the COVID-19 pandemic, with trends mirroring the various lockdowns that occurred in Italy between 2020 and 2021.
-- A seasonality in the number of reviews is evident, with significantly fewer reviews posted during the winter months."
+<br>
+<br>
+It is often said that big data tells the story of our social lives, capturing societal trends and behaviors.
+The chart below, which illustrates the number of reviews by month, 
+makes no exeption and several interesting insights can be observed:
+- There is a clear seasonal pattern in the number of reviews, with significantly fewer reviews posted during the winter months.  
+- The data distinctly reflects the impact of the COVID-19 pandemic, with trends mirroring the various lockdowns and restrictions that occurred in Italy between 2020 and 2021. During the initial lockdown in early 2020, there is a marked decline in the number of reviews, 
+followed by fluctuations that correspond to subsequent waves of the pandemic and the implementation of public health measures.
+- The number of reviews does not seem to have recovered to pre-pandemic level.
 <br>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607_Nreviews_bymonth_Total.json" style="width:100%"></vegachart>
 <br>
@@ -78,7 +84,7 @@ In particular, we can assume that people from wealthier countries frequent more 
 <br>
 From the chart above we can observe how people from different cultures react to italian cusine. In addition, confirming what we expect it seems that people from wealthier countries prefer restaurants with a higher price range.
 <br>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_Price_byLanguage.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/1707Bar_Price_byLanguage.json" style="width: 100%"></vegachart>
 <br>
 Finally, restaurants with lower price ranges receive higher ratings than more expensive restaurants. We can infer from this that those who are willing to spend more will be more critical , we might also assume that positive reviews come from people of similar culture to those in Italy.
 <br>
@@ -114,13 +120,6 @@ L'andamento delle recensioni varia anche per tipologia, andamento generale:
 <br>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607_NReviews_byMonth_Business.json" style="width:100%"></vegachart>
 
-
-
-<br>
-### Esempio di inserimento di un chart realizzato con Altair 13 Luglio 
-<br>
-
-<vegachart schema-url="{{site.baseurl}}/assets/charts/PriceByLanguage.json" style="width: 100%"></vegachart>
 
 <br>
 - Il grafico è stato salvato come file `chart_responsive.json` e inserito nella cartella `assets/charts`.
