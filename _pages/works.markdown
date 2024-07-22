@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title:  "data"
+title:  "How it works"
 subtitle: "File di prova"
 show_sidetoc: true
 # header_type: hero #base, post, hero,image, splash
@@ -13,22 +13,21 @@ vega: true
 ---
 
 
-# **It could work!**
+# **How it works**
 
-<hr>
-
+### IT COULD WORK!
 <br>
 <center>
 <img  width="600px" style="margin: 0px 35px 0px 0px;" src="assets/images/itcouldwork.jpg">
 </center>
-<br>
 <br>
 CraveIT does something that **no other app does**: a restaurant ranking that is specifically based on the quality of a particular dish; this, of course, is a result we cherish. On the other hand, it poses a problem: it’s an unsupervised process for the validation of which we have **no obvious label**. We don’t <i>know</i> what is the correct result that our ranking is supposed to return.
 <br>
 Therefore, in order to **validate our results**, we have scoured the web in search of newspapers, magazines, and food blogs articles that had compiled a specific list of “<i>The best places to eat a x in Rome</i>”. The outcome took us by surprise.
 <br>
 <hr>
-<br>
+
+### Validation
 Let's start with <span style="color: #ed1a1a;">**carbonara**</span>, by far the most popular among the dishes we selected; here are the most reputable pieces we found:
 <br>
 <br>
@@ -105,7 +104,8 @@ Closing with a peculiar and particularly interesting result, let's talk about <s
 More importantly, **both of the top 2 places among CraveIT’s “carciofi alla giudia” results are restaurants located at the Jewish ghetto**, an area where no restaurants recommended by CraveIT for other dishes appear. This kind of artichokes are widely cooked and eaten in any restaurant offering Roman cuisine but are, of course, a classic of the classic in Roman Jewish tradition; as such, CraveIT correctly spotted that their heart lies in the ghetto.
 <br>
 <hr>
-<br>
+
+### Conclusions
 CraveIT’s **rankings and scores are extremely diverse, varying deeply on the basis of the selected dish,** and they seem overall more than sensible, being validated by plenty of the dish-specific sources we could find.
 What’s more important about these results, and somewhat surprising, is that **virtually none of the above-mentioned restaurants are highly rated on the generic online sources**, proving that CraveIT’s sentiment analysis and ranking algorithm are the ones doing most of the work. 
 CraveIT is returning accurate, but not obvious, results: it's singling out restaurants that are world-class on a target dish, but that are for the most part not included by traditional apps among their generic usual suspects. So, if you are still not convinced about CraveIT, all you have to do is try it out for yourself: what are <i>you</i> craving?
