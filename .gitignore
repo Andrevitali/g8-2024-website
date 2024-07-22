@@ -4,5 +4,5 @@ _site
 .jekyll-metadata
 vendor
 .idea
-venv.DS_Store
+venv
 .DS_Store
