@@ -1,5 +1,5 @@
 - name: The App
-  url:  "assets/images/app.jpeg"
+  url:  "assets/images/App.jpeg"
   description: "The App in Action"
   path: "theapp"
 - name: Why it matters
