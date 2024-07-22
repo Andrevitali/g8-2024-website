@@ -33,7 +33,7 @@ The recommended results are based on the app’s **AI-powered ranking system**; 
 <img title="Overview" align="right" width="200px" style="margin: 0px 0px 0px 35px;" src="assets/images/overview_app.png">
 
 CraveIT displays a simple overview page where you can **search for the dish** you want to try. Type the dish in the search bar and the app will suggest its full name.
-Can’t think of anything in particular? No worries, right below the search bar are some buttons with icons identifying **the most popular** dishes in Rome. Click on what gets your attention!
+Can’t think of anything in particular? No worries, right below the search bar there are some buttons with icons identifying **the most popular** dishes in Rome. Click on what gets your attention!
 You can also set a series of **filters** such as:
 -  	vegetarians and vegan options;
 -  	payment by credit card;
@@ -53,13 +53,13 @@ You can also set a series of **filters** such as:
 
 <img title="Ranking" align="left" width="200px" style="margin: 0px 35px 0px 0px;" src="assets/images/ranking.png">
 
-Once you have chosen your desired dish and filters, you land on a new page that shows you the **top ten restaurants** selected by the ranking algorithm. The restaurants are sorted in descending order based on their **CraveIT score**, relative to your target dish, which ranges from a minimum of 1 to a maximum of 10.
+Once you have chosen your desired dish and filters, you land on a new page that shows you the **top ten restaurants** selected by the ranking algorithm. The restaurants are sorted in descending order based on their **CraveIT score**, relative to your target dish, which ranges from a minimum of 0 to a maximum of 10.
 <br>
 <br>
 Additionally, by clicking on the **drop-down menu** next to the restaurant's name, the app show its CraveIT score, address, phone number, and price range; furthermore, a map at the bottom of the box will display its geolocation.
 <br>
 <br>
-Ready to start your culinary journey? For more comprehensive information about the restaurant that grabbed your attention, simply click on the its name and you will be redirected to the ‘Restaurant details’ section.
+Ready to start your culinary journey? For more comprehensive information about the restaurant that grabbed your attention, simply click on the name and you will be redirected to the ‘Restaurant details’ section.
 <br>
 <br>
 <br>
