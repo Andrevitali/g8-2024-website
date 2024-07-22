@@ -69,7 +69,7 @@ followed by fluctuations that correspond to subsequent waves of the pandemic and
 ### Reviews by language
 Although CraveIT's ranking is based exclusively on Italian reviews, the original dataset includes both Italian and non-Italian reviews in a roughly 60:40 proportion.
 <br>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/1707Bar_N_ItalianvsNonItalian.json" style="width:100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/2207Bar_N_ItalianvsNonItalian.json" style="width:100%"></vegachart>
 <br>
 Among the non-Italian reviews there are many different languages, and consequently cultures. 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_NForeignReviewsbyLanguage.json" style="width:100%"></vegachart>
@@ -79,12 +79,12 @@ Given the rich variety of languages and cultures in our dataset, we tried to ext
 For instance, we expected people from high-income countries to go to more expensive restaurants and customers from less wealthy countries to cheaper ones. 
 The data gathered and visualized in the chart below seem to confirm this expectation.
 <br>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/1707Bar_Price_byLanguage.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/2207Bar_Price_byLanguage.json" style="width: 100%"></vegachart>
 <br>
 It is also worth noting that there is a significant difference in how different cultures rates Italian restaurant and this is another 
 factor that might support our decision to only include Italian reviews to calculate our ranking.
 <br>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/1607Bar_Ratings_byLanguage.json" style="width:100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/2207Bar_Ratings_byLanguage.json" style="width:100%"></vegachart>
 <br>
 With regard to the previous chart, we need to remember that not always correlation implies causation.
 In fact, it must be underlined that restaurants with lower prices tend to receive higher ratings (as shown in the chart below). 
