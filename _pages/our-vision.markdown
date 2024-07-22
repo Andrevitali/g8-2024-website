@@ -52,5 +52,5 @@ The best way to make CraveIT useful is by expanding its geographical reach to th
 <br>
 CraveIT represents a natural integration to the **turism** industry. Locals might already be familiar with the best spots in town, and have their personal opinionated ranking of those; the time users will need CraveIT the most is when they're visiting some place new.
 
-So what's the best baklava in Istanbul? We hope, one day, CraveIT will know the answer
+So what's the best baklava in Istanbul? We hope, one day, CraveIT will know the answer.
 
