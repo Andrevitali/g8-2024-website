@@ -10,38 +10,47 @@ tags: [starter,syntax,markdown]
 # **Future Plans**
 ## Our vision
 <br>
-CraveIT is currently a PoC, as you can see on this site. In this section we put our wishes for the future in order.
+As you have seen on the site, CraveIT is currently a **PoC**; as such, it is at present restricted to a specific town and a given set of dishes.
+In this section, we express some **hopes and wishes** on its future.
 <br>
 <br>
 
 ---
 ## The App
-Is there anything better than knowing the most updated rank of the best restaurants by dish in your favourite city?
+Is there anything better than knowing the perfect restaurants for your favorite dish? Obviously, having the answer at the palm of your hand.
 
-Having it at hand!
+Given the amount of work, love, and care that we devoted to our project, and the results that it obtained, we can't wait to share it with people. After all, "to get the full value of cuisine you must have someone to divide it with" (with apologies to Mark Twain).
 
-Given the amount of work devoted to our project and the results obtained, we can't exempt ourselves from sharing it with people. After all, to get the full value of cuisine you must have someone to divide it with (Mark Twain in Italy eating carbonara).
-
-It goes without saying that developing an app and making it available to people is the best way to share joyful things like italian dishes.
+Of course, **developing an app** and making it available to the rest of the world is the best way of sharing joyful things, such as italian dishes.
+In particular, CraveIT could be deployed as a stand-alone app, but also as an add-on to existing platforms.
 <br>
 <br>
 
 ---
-
 ## Expanding the horizon
+<br>
+#### Reinforcing loop
 
-#### _Reinforcing loop_
-The multifaceted horizon of cuisine needs to be properly treated and its exploration by statistical methods requires detailed precision. Such precision showed its necessity when we realized that the actual apps and website that offer a window to restaurants and host customers reviews do not give weight to experts knowledge of local cuisine.
+The detailed and statistical exploration of the food world can't start but in one place: collecting (more) data.
+As clearly shown in the validation section, current food apps and websites are not fine-grained enough: they only take into account generic reviews about the users' eating experience, and they don't properly weight the opinion of local experts.
+<br>
+<br>
+On the contrary, CraveIT will **enable customers to leave dish-specific reviews**. Been to a place we suggested? Tell us whether the carbonara was the best you've ever tasted. Are you a local or a food critic? Get a verified profile on CraveIT and tip us on all the awesome places we still don't know about.
 
-On the contrary, the CraveIT app will enable people to authenticate as specialized users, such as food critics, so that the score associated to their reviews will receive a special weight in the final ranking. 
-
-
+<br>
 #### Image analysis
-Appearance matters too, as many use to say, but not as a mere arrangement of colours and forms as in the food-pornographic capture of the physical aspect of dishes. Instead, the analysis of pictures taken by reviewers will provide additional accuracy to the ranking formula by conveying information about colours and texture, that can be compared to the information conveyed by certified pictures.
+As the saying goes, appearance matters too. The color and texture **analysis of pictures** taken by casual diners and verified reviewers will greatly help with the accuracy of the ranking formula: just <i>how creamy</i> that carbonara really is?
+<br>
+<br>
+Of course, in addition, by returning a restaurant ranking paired with pictures of the target dish, we will be able to provide our users with a realistic expectation of what they're in for.
 
-#### _Conquering the world_
+<br>
+#### Conquering the world
 
-The best way to make CraveIT useful is by expanding its geographical reach to Italy and beyond. For each city, we can identify typical dishes, flavors, tastes, and the most specialized restaurants, in order to offer users the best experience.
+The best way to make CraveIT useful is by expanding its geographical reach to the **rest of Italy, and beyond**. For each city, we can identify its typical dishes and flavors, and direct our users to the perfect restaurants.
+<br>
+<br>
+CraveIT represents a natural integration to the **turism** industry. Locals might already be familiar with the best spots in town, and have their personal opinionated ranking of those; the time users will need CraveIT the most is when they're visiting some place new.
 
-The actual proof of concept will be letting people verify the accuracy of our ranking. 
+So what's the best baklava in Istanbul? We hope, one day, CraveIT will know the answer.
 
