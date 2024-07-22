@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title:  "Why it matters"
+title:  "Data matters"
 subtitle: "Our data and what promped us"
 show_sidetoc: true
 # header_type: hero #base, post, hero,image, splash
@@ -13,7 +13,7 @@ vega: true
 ---
 
 
-# **Why it matters**
+# **Data matters**
 #### Our data and the reasons behind our project
 
 Between the late 1990s and the early 2000s, the emergence of successful social networks and review platforms marked the beginning of a new era in communication, information sharing, and marketing.
