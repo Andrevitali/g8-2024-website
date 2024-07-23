@@ -20,7 +20,7 @@ Between the late 1990s and the early 2000s, the emergence of successful social n
 
 <br>
 The restaurant industry has been no exception and has been hugely impacted by this phenomenon as well. 
-To gain more insights on this, we have interviewed food critic **Carlo Passera**, editor-in-chief of [Identità Golose](https://www.identitagolose.it/), who observed:
+To gain more insights on this, we have interviewed food critic **Carlo Passera**, editor-in-chief of <a href="https://www.identitagolose.it/" style="color: #5d6062;">Identità Golose</a>, who observed:
 <div style="background-color: #f9f9f9; padding: 10px; margin: 10px 0;">
     “The phenomenon of online reviews is part of a larger trend known as <strong>disintermediation</strong>. This trend seems to affect all aspects of contemporary society. In e-commerce, for instance, disintermediation cuts out the middleman and allows customers to communicate directly with producers.”
 </div>
