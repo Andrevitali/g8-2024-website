@@ -42,7 +42,7 @@ Let's start with <span style="color: #ed1a1a;">carbonara</span>, by far the most
 <i>Gambero Rosso</i> – [La migliore carbonara di Roma](https://www.gamberorosso.it/notizie/classifiche/la-migliore-carbonara-di-roma-la-classifica-dopo-21-test-in-4-giorni/ );
 <br>
 
-Three restaurants consistently appear in these articles, <i>Roscioli</i>, <i>Luciano Cucina Italiana</i> and <i>Eggs</i>: **all of them are in CraveIT’s top five**. As for the other restaurants appearing in CraveIT’s carbonara top 10, they are all extremely popular places, variously mentioned on social media and YouTube videos (e.g. <i>La Fraschetta</i>, <i>Tonnarello</i>, <i>Osteria da Fortunata</i>).
+Three restaurants consistently appear in these articles, <i>Roscioli</i>, <i>Luciano Cucina Italiana</i> and <i>Eggs</i>: **all of them are in CraveIT’s top five**. As for the other restaurants appearing in CraveIT’s carbonara top ten, they are all extremely popular places, variously mentioned on social media and YouTube videos (e.g. <i>La Fraschetta</i>, <i>Tonnarello</i>, <i>Osteria da Fortunata</i>).
 <br>
 Online articles are obviously not as detailed about other, less iconic, dishes; however, we still found plenty of possible comparisons.
 Let's move to <span style="color: #ed1a1a;">cacio e pepe</span>:
@@ -105,7 +105,7 @@ As for <span style="color: #ed1a1a;">baccalà</span>, [Bernabei Magazine](https:
 Closing with a peculiar and particularly interesting result, let's talk about <span style="color: #ed1a1a;">carciofi alla giudia</span>. Both [Marie Claire](https://www.marieclaire.it/food/g36378665/migliori-carciofi-alla-giudia/) and [2night](https://2night.it/81c141-/il-carciofo-alla-giudia-indirizzi-dove-mangiarlo-roma.html) suggest <i>Giggetto al Portico d'Ottavia</i> and <i>La Taverna del Ghetto</i>, both of these are in CraveIT's top ten, the former being the top result.
 More importantly, both of the top two places among **CraveIT’s “carciofi alla giudia” results are restaurants located at the Jewish ghetto**, an area where no restaurants recommended by CraveIT for other dishes appear.
 <br>
-This kind of artichokes are widely cooked and eaten in any restaurant offering Roman cuisine but are, of course, a classic of the classic in Roman Jewish tradition; as such, CraveIT correctly spotted that their heart lies in the ghetto.
+This kind of artichokes are widely cooked and eaten in any restaurant offering Roman cuisine but are, of course, a classic of  Roman Jewish tradition; as such, CraveIT correctly spotted that their heart lies in the ghetto.
 <br>
 <hr>
 
