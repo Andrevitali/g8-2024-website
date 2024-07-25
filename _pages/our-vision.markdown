@@ -46,9 +46,9 @@ Of course, in addition, by returning a restaurant ranking paired with pictures o
 <br>
 #### Conquering the world
 
-The best way to make CraveIT useful is by expanding its geographical reach to the **rest of Italy, and beyond**. For each city, we can identify its typical dishes and flavors, and direct our users to the perfect restaurants.
+The best way to make CraveIT useful is by expanding its geographical reach to the **rest of Italy, and beyond**. For any city, we can identify its typical dishes and flavors, guiding our users to the perfect restaurants.
 <br>
-CraveIT represents a natural integration to the **turism** industry. Locals might already be familiar with the best spots in town, and have their personal opinionated ranking of those; the time users will need CraveIT the most is when they're visiting some place new.
+Locals may already know the best places in town and have their own personal rankings, but tourists will fully utilize CraveIT's potential when exploring new destinations. This makes CraveIT an ideal fit for the **tourism** industry.
 
 So what's the best baklava in Istanbul? We hope, one day, CraveIT will know the answer.
 
