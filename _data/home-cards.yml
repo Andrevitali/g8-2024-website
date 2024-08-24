@@ -7,7 +7,7 @@
   description: "What Prompted us"
   path: "what-prompted-us"
 - name: Under the hood
-  url:  "assets/images/ourdata.jpeg"
+  url:  "assets/images/underthehood.jpg"
   description: "The magic behind"
   path: "kramdown"
 - name: It could work!
