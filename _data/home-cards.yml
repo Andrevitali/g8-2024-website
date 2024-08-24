@@ -6,9 +6,13 @@
   url:  "assets/images/why-it-matters.jpeg"
   description: "What Prompted us"
   path: "what-prompted-us"
-- name: How it works
+- name: Under the hood
   url:  "assets/images/ourdata.jpeg"
   description: "The magic behind"
+  path: "kramdown"
+- name: It could work!
+  url:  "assets/images/ourdata.jpeg"
+  description: "The validation"
   path: "data"
 - name: Future plans
   url:  "assets/images/FuturePlans.jpeg"

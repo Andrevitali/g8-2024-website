@@ -52,7 +52,9 @@ navbar:
       url: /theapp
     - title: Data Matters
       url: /what-prompted-us
-    - title: How it works
+    - title: Under the hood
+      url: /kramdown
+    - title: It could work!
       url: /works
     - title: Future Plans
       url: /our-vision

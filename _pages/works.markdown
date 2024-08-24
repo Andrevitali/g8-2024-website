@@ -13,9 +13,8 @@ vega: true
 ---
 
 
-# **How it works**
+# **IT COULD WORK!**
 
-### IT COULD WORK!
 <br>
 <center>
 <img  width="600px" style="margin: 0px 35px 0px 0px;" src="assets/images/itcouldwork.jpg">
