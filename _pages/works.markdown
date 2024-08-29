@@ -17,16 +17,18 @@ vega: true
 
 <br>
 <center>
-<img  width="600px" style="margin: 0px 35px 0px 0px;" src="assets/images/itcouldwork.jpg">
+<img  width="600px" style="margin: 0px 0px 0px 0px;" src="assets/images/itcouldwork.jpg">
 </center>
+<br>
 <br>
 CraveIT does something that **no other app does**: a restaurant ranking that is specifically based on the quality of a particular dish; this, of course, is a result we cherish. On the other hand, it poses a problem: it’s an **unsupervised process** for the validation of which we have no obvious label. We don’t <i>know</i> what is the correct result that our ranking is supposed to return.
 <br>
 Therefore, in order to **validate our results**, we have scoured the web in search of newspapers, magazines, and food blogs articles that had compiled a specific list of “<i>The best places to eat a x in Rome</i>”. The outcome took us by surprise.
 <br>
-<hr>
 
+<br>
 ### Validation
+----
 Let's start with <span style="color: #ed1a1a;">carbonara</span>, by far the most popular among the dishes we selected; here are the most reputable pieces we found:
 <br>
 <br>
@@ -61,7 +63,7 @@ Let's move to <span style="color: #ed1a1a;">cacio e pepe</span>:
 Again, three restaurant consistently appear in the articles: <i>Felice a Testaccio</i>, <i>Roscioli</i>, <i>Flavio al Velavevodetto</i>; Repubblica also mentions <i>Osteria Cacio e Pepe</i>, while Skyscanner suggests <i>Roma Sparita</i>. Again, **all of these restaurants are in CraveIT's cacio e pepe top six**.
 <br>
 As for <span style="color: #ed1a1a;">saltimbocca</span>, both [Il Corriere della Sera](https://www.corriere.it/cook/news/cards/roma-migliori-trattorie-secondo-guida-michelin/migliori-trattorie-roma-armando-pantheon.shtml) and [La Cucina Italiana](https://www.lacucinaitaliana.it/article/saltimbocca-alla-romana-ricetta-armando-al-pantheon/) strongly suggest <i>Armando al Pantheon</i>, 
-while [Visitare Roma](https://www.lacucinaitaliana.it/article/saltimbocca-alla-romana-ricetta-armando-al-pantheon/) mentions <i>Saltimbocca</i>: **both restaurants are in CraveIT's top five**.
+while [Visitare Roma](https://www.visitareroma.info/dove-mangiare-a-roma-i-migliori-saltimbocca-alla-romana/) mentions <i>Saltimbocca</i>: **both restaurants are in CraveIT's top five**.
 Moving to <span style="color: #ed1a1a;">coda alla vaccinara</span>, [La Cucina Italiana](https://www.lacucinaitaliana.it/dove-mangiare-roma-coda-vaccinara-oma/), [Roma Today](https://www.romatoday.it/cibo/dove-mangiare/da-checchino-testaccio-migliore-coda-vaccinara.html), [Vice](https://www.vice.com/it/article/m7apmb/coda-alla-vaccinara-checchino-dal-1887), [RomaIt](https://www.romait.it/coda-alla-vaccinara-la-migliore-di-roma-la-trovi-in-un-localino-nascosto-la-ricetta-lhanno-inventata-qui.html), [Finedining Lovers](https://www.finedininglovers.it/articolo/ristoranti-quinto-quarto-frattaglie-roma-lista) and [Scatti di Gusto](https://www.scattidigusto.it/ristoranti/dove-mangiare-la-coda-alla-vaccinara-a-roma-tradizione-e-trattorie/) 
 dedicate articles to <i>Checchino dal 1887</i>, the birthplace of this dish, and also mention <i>Sora Lella</i>, <i>SantoPalato</i>, and <i>Lo Scopettaro</i>: once again, **all of these restaurants are in CraveIT's top ten**. 
 As for <span style="color: #ed1a1a;">trippa</span>, [Il Corriere della Sera](https://www.corriere.it/cook/news/cards/roma-dove-mangiare-bene-meno-40-euro-secondo-guida-michelin/mangiare-roma-meno-40-euro-osteria-trippa.shtml) and [Finedining Lovers](https://www.finedininglovers.it/articolo/ristoranti-quinto-quarto-frattaglie-roma-lista) recommend <i>Osteria della Trippa</i>, **CraveIT's second top result**.
@@ -106,9 +108,11 @@ More importantly, both of the top two places among **CraveIT’s “carciofi all
 <br>
 This kind of artichokes are widely cooked and eaten in any restaurant offering Roman cuisine but are, of course, a classic of  Roman Jewish tradition; as such, CraveIT correctly spotted that their heart lies in the ghetto.
 <br>
-<hr>
 
+<br>
 ### Conclusions
+----
+
 CraveIT’s rankings and scores are extremely **diverse**, varying deeply on the basis of the selected dish, and they seem overall more than sensible, being validated by plenty of the **dish-specific** sources we could find.
 <br>
 What’s more important about these results, and somewhat surprising, is that **virtually none of the above-mentioned restaurants are highly rated on the generic online sources**, proving that CraveIT’s sentiment analysis and ranking algorithm are the ones doing most of the work. 

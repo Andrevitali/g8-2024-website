@@ -14,7 +14,10 @@ vega: true
 
 
 # **Data matters**
+
+<br>
 ### The reasons behind our project
+----
 
 Between the late 1990s and the early 2000s, the emergence of successful social networks and review platforms marked the beginning of a new era in communication, information sharing, and marketing.
 
@@ -44,9 +47,11 @@ Do you think including experts' opinions in CraveIT's ranking is a good idea?</i
 <br>
 Nowadays, we seem to have the opposite issue: **customers have too much information**, which at times it's like having no information. 
 Since customers might find it difficult to negotiate the overwhelmingly vast amount of online information at their disposal, guides can serve to pinpoint the best options with some authority. Therefore, I reckon that including experts' opinion in CraveIT's score would make its ranking more robust and reliable”
-<hr>
 
+
+<br>
 ### Our data
+----
 To develop the proof of concept of CraveIT, we have decided to focus on Rome and collected information on traditional Roman restaurants. 
 For improved **freshness** and therefore **reliability** of our results, we have opted to restrict our analysis to reviews written from January 2019 onward.
 The map below shows the location and some information about the restaurants included in our dataset.
@@ -129,7 +134,6 @@ The plots below seem to indicate the following:
   
 <br>
 ### Geospatial Insights 
-<br>
 In this section, several geospatial visualizations are displayed. It is particularly interesting to notice the **differences between the historic centre and the rest of the city**. The maps clearly illustrate the significant influence of tourism in the central areas of Rome. 
 This insight helps us understand how tourist activity is concentrated in specific parts of the city and how this might impact the social and economic fabric of those areas.
 

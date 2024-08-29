@@ -1,18 +1,18 @@
-- name: The App
+- name: The app
   url:  "assets/images/App.jpeg"
   description: "The App in Action"
   path: "theapp"
 - name: Data matters
   url:  "assets/images/why-it-matters.jpeg"
-  description: "What Prompted us"
+  description: "What Prompted Us"
   path: "what-prompted-us"
 - name: Under the hood
   url:  "assets/images/underthehood.jpg"
-  description: "The magic behind"
+  description: "The Magic Behind"
   path: "kramdown"
 - name: It could work!
   url:  "assets/images/ourdata.jpeg"
-  description: "The validation"
+  description: "Validation"
   path: "data"
 - name: Future plans
   url:  "assets/images/FuturePlans.jpeg"

@@ -13,7 +13,10 @@
 ---
 
 # **The App**
-## The idea
+
+<br>
+### The idea
+---
 
 The 'CraveIT' app has been designed to identify restaurants that are most loved for the traditional food they serve. 
 In particular, users can find where to get the perfect carbonara in Rome! 
@@ -21,7 +24,7 @@ Users can log in, decide what they want to eat, and based on their selected dish
 
 
 <br>
-## How the app works
+### How the app works
 ----
 CraveIT allows you to select a dish from the traditional Roman cuisine and recommends the best restaurants based on your chosen dish. Additionally, you can set a series of filters for a more personalized response.
 The recommended results are based on the app’s **AI-powered ranking system**; its custom algorithm considers **several factors**, including customers’ feedback, experts’ opinions, the restaurants’ popularity, reliability and consistency over time.

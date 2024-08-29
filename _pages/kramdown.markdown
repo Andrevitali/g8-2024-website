@@ -18,13 +18,25 @@ vega: true
 
 Currently, CraveIT is a **proof-of-concept**: it focuses on the city of Rome, and on a selection of 15 traditional dishes. Obviously it could, and we hope soon will, be extended to any town and any list of dishes.
 
+<br>
+### DATA GATHERING & CLEANING
+----
+
 CraveIT’s PoC is based on the analysis of over **1.000.000** reviews, gathered from the most important informative hubs of the food industry; this pool of reviews spans around **2.500** of the best (top 20%) and more visited (top 10%) restaurants of Rome. For each of these restaurants, we collected all the reviews written in the past **5 years**, together with a rich set of **contextual information** regarding both the review (title, score, date, <i>etc.</i>) and the restaurant itself (price range, location, contact info, opening hours, features, <i>etc.</i>).
 
 The pool of raw data has then entered a fine-grained **pre-processing pipeline**. All the reviews, and their contextual attributes, have been each checked for formal and semantic consistency; furthermore, duplicates, missing and null values have been handled through solutions tailored on the importance of the variable.
 The different sources have then been merged: each review, no matter where it was collected from, has been augmented with aggregate pieces of information coming from all the other sources as well, thus creating a **rich, and so far unavailable, dataset**.
 Finally, the results have been **filtered** to include only reviews written in Italian, and about Italian restaurants.
 
+<br>
+### INDEXING & RETRIEVAL
+----
+
 We then needed an efficient and scalable mechanism to **locate the texts mentioning at least one of our 15 target dishes**. The reviews’ bodies, together with their respective titles where present, have hence been indexed through batches in a search engine. We then built the queries so that the engine would also retrieve misspellings and morphological variants of the target terms, and devised custom solutions for the phrase ones (<i>e.g.</i> “cacio e pepe”). 
+
+<br>
+### SENTIMENT ANALYSIS
+----
 
 Having identified, for each of our target dishes, the set of all and only reviews that were mentioning that dish, we were ready to move to **sentiment analysis**. This phase was particularly crucial: the novelty and peculiarity of CraveIT lies in the fact that its analysis, and hence the recommendations it provides, are **dish-specific**; users, however, frequently mention multiple dishes in the same review, and express opinions on the restaurant's general features, such as its atmosphere, value and service. For our sentiment analysis we thus employed **different state-of-the-art pre-trained transformer models**, variously tailoring the format of the input data. For each review, and for each dish, the models were fed either the whole body or chunks of it, and outputted a sentiment value between 1 (very negative) and 5 (very positive).
 
@@ -39,6 +51,9 @@ The **results were great**, and far exceeded expectations: even if unprompted to
 
 The models were able to **pinpoint the sentiment associated with the target dish**, disregarding what else was said about other dishes, the service, or the restaurant in general. Notice that, crucially, the **overall stars** assigned by the users, on which traditional apps base their rankings, **lack the necessary granularity** in order to pick up on all the opinions expressed in the text; this, we argue, means that current platforms lose a lot of prime information along the way. The dish-specific sentiment will, on the other hand, give CraveIT a much more precise base for the ranking algorithm.
 
+<br>
+### RANKING
+----
 CraveIT’s ranking algorithm uses **3 main parameters**, all of which are **dish-specific**:
 
 - **mean sentiment**: for every restaurant, for every dish, the mean of the sentiment scores associated with each review, as returned by the models; the various models' results have also been weighted on the basis of their accuracy and the breadth of the context they were fed;
