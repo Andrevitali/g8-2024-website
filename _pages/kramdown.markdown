@@ -32,7 +32,7 @@ Finally, the results have been **filtered** to include only reviews of Italian r
 ### INDEXING & RETRIEVAL
 ----
 
-To **identify pieces of text mentioning at least one of our 15 target dishes** in an efficient and scalable way, we indexed the bodies and titles of the reviews in batches using a search engine. We then built queries to capture not only matches, but also misspellings and morphological variants of the target terms. For multi-word dishes (<i>e.g.</i> “cacio e pepe”), we devised custom solutions to ensure accurate retrieval. 
+To **identify pieces of text mentioning at least one of our 15 target dishes** in the raw data efficiently and in a scalable manner, we indexed the bodies and titles of the reviews in batches using a search engine. We then built queries to capture not only matches, but also misspellings and morphological variants of the target terms. For multi-word dishes (<i>e.g.</i> “cacio e pepe”), we devised custom solutions to ensure accurate retrieval. 
 
 <br>
 ### SENTIMENT ANALYSIS
