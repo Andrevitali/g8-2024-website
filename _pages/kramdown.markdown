@@ -16,23 +16,23 @@ vega: true
 
 <br>
 
-Currently, CraveIT is a **proof-of-concept**: it focuses on the city of Rome, and features a selection of 15 traditional dishes. However, it has the potential -and we hope soon the opportunity- to expand it to any town and to include any dish.
+Currently, CraveIT is a **proof-of-concept**: it focuses on the city of Rome, and features a selection of 15 traditional dishes. However, it has the potential -and we hope soon the opportunity- to expand to any town and to include any dish.
 
 <br>
 ### DATA GATHERING & CLEANING
 ----
 
-CraveIT’s PoC is built on the analysis of over **1.000.000** reviews, gathered from the most influential platforms of the food industry. This pool of reviews covers approximately **2.500** of the best (top 20%) and more visited (top 10%) restaurants in Rome. For each of these restaurants, we collected all the reviews written in the past **5 years**, along with a rich set of **contextual information** about both the reviews (title, score, date, <i>etc.</i>) and the restaurants (price range, location, contact info, opening hours, features, <i>etc.</i>).
+CraveIT’s PoC is built on the analysis of over **1.000.000** reviews, gathered from the most influential information hubs of the food industry. This pool of reviews covers approximately **2.500** of the best (top 20%) and more visited (top 10%) restaurants in Rome. For each of these restaurants, we collected all the reviews written in the past **5 years**, along with a rich set of **contextual information** about both the reviews (title, score, date, <i>etc.</i>) and the restaurants (price range, location, contact info, opening hours, features, <i>etc.</i>).
 
 The pool of raw data then underwent a fine-grained **pre-processing pipeline**. Each review and its contextual attributes has been checked for formal and semantic consistency. Furthermore, duplicates, missing and null values have been handled through solutions tailored to the importance of each variable.
-Data from different sources have then been merged: each review, regardless of its origin, has been enriched with aggregated information from all the other sources as well, resulting in a **rich, and so far unavailable, dataset**.
+Data from different sources have then been merged: each review, regardless of its origin, has been augmented with aggregated information from all the other sources as well, resulting in a **rich, and so far unavailable, dataset**.
 Finally, the results have been **filtered** to include only reviews of Italian restaurants, and written in Italian.
 
 <br>
 ### INDEXING & RETRIEVAL
 ----
 
-To **identify pieces of text mentioning at least one of our 15 target dishes** in the raw data efficiently and in a scalable manner, we indexed the bodies and titles of the reviews in batches using a search engine. We then built queries to capture not only matches, but also misspellings and morphological variants of the target terms. For multi-word dishes (<i>e.g.</i> “cacio e pepe”), we devised custom solutions to ensure accurate retrieval. 
+To **identify pieces of text mentioning at least one of our 15 target dishes** efficiently and in a scalable manner, we indexed the bodies and titles of the reviews in batches using a search engine. We then built queries to capture not only matches, but also misspellings and morphological variants of the target terms. For multi-word dishes (<i>e.g.</i> “cacio e pepe”), we devised custom solutions to ensure accurate retrieval. 
 
 <br>
 ### SENTIMENT ANALYSIS
@@ -49,7 +49,7 @@ The **results were outstanding** and far exceeded expectations. Remarkably, the 
 <br>
 <br>
 
-The models successfully **pinpointed the sentiment associated with the target dish**, effectively filtering out irrelevant comments about other dishes, service, or the restaurant in general. This capability is particularly crucial since the **overall stars** assigned by the users, on which traditional apps rely on for their rankings, **lack the necessary granularity** to pick up on the full range of the opinions expressed in the text. We argue that this limitation causes current platforms to overlook and lose a lot of prime information along the way. In contrast, the dish-specific sentiment analysis will give CraveIT a much more precise and detailed base for its ranking algorithm.
+The models successfully **pinpointed the sentiment associated with the target dish**, effectively filtering out irrelevant comments about other dishes, service, or the restaurant in general. This capability is particularly crucial since the **overall stars** assigned by the users, on which traditional apps rely for their rankings, **lack the necessary granularity** to pick up on the full range of the opinions expressed in the text. We argue that this limitation causes current platforms to overlook and lose a lot of prime information along the way. In contrast, the dish-specific sentiment analysis will give CraveIT a much more precise and detailed base for its ranking algorithm.
 
 <br>
 ### RANKING
